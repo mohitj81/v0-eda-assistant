@@ -9,14 +9,11 @@ function calculateQualityScore(
   duplicateRows: number
 ): number {
   if (rowCount === 0) return 0
-
   const missingRatio = (missingTotal / (rowCount * columnCount)) * 100
   const duplicateRatio = (duplicateRows / rowCount) * 100
-
   let score = 100
-  score -= Math.min(missingRatio * 0.3, 30) // Missing values: max -30
-  score -= Math.min(duplicateRatio * 2, 20) // Duplicates: max -20
-
+  score -= Math.min(missingRatio * 0.3, 30)
+  score -= Math.min(duplicateRatio * 2, 20)
   return Math.max(0, Math.round(score))
 }
 
@@ -25,11 +22,11 @@ function generateInsights(
   columnCount: number,
   missingTotal: number,
   duplicateRows: number,
-  columns: any[]
+  columns: any[],
+  fileName: string
 ): any {
   const insights: any[] = []
 
-  // Missing values insight
   if (missingTotal > 0) {
     const missingRatio = ((missingTotal / (rowCount * columnCount)) * 100).toFixed(2)
     insights.push({
@@ -44,22 +41,15 @@ function generateInsights(
     })
   }
 
-  // Duplicates insight
   if (duplicateRows > 0) {
     insights.push({
       category: 'duplicates',
       title: 'Duplicate Rows Found',
       description: `Identified ${duplicateRows} duplicate row(s) in your dataset.`,
       severity: 'warning',
-      recommendation: 'Remove duplicate rows using drop_duplicates() in Python or your data tool.',
+      recommendation: 'Remove duplicate rows using drop_duplicates() in Python.',
     })
   }
-
-  // Column type consistency
-  const typeDistribution: Record<string, number> = {}
-  columns.forEach((col) => {
-    typeDistribution[col.type] = (typeDistribution[col.type] || 0) + 1
-  })
 
   if (columns.some((col) => col.type === 'unknown')) {
     insights.push({
@@ -71,7 +61,6 @@ function generateInsights(
     })
   }
 
-  // Data distribution
   const highMissingCols = columns.filter((col) => col.missingPct > 10)
   if (highMissingCols.length > 0) {
     insights.push({
@@ -79,61 +68,111 @@ function generateInsights(
       title: 'Columns with High Missing Percentage',
       description: `${highMissingCols.length} column(s) have more than 10% missing values: ${highMissingCols.map((c) => c.name).join(', ')}`,
       severity: 'warning',
-      recommendation:
-        'Decide whether to drop these columns or apply appropriate imputation strategies.',
+      recommendation: 'Decide whether to drop these columns or apply appropriate imputation strategies.',
     })
   }
 
-  // Generate cleaning script
-  const cleaningScript = generateCleaningScript(columns, duplicateRows, missingTotal > 0)
-
-  return {
-    insights,
-    cleaningScript,
+  // Check for skewed numeric columns
+  const numericCols = columns.filter((col) => col.type === 'numeric' || col.type === 'integer' || col.type === 'float')
+  if (numericCols.length > 0) {
+    insights.push({
+      category: 'statistics',
+      title: `${numericCols.length} Numeric Column(s) Detected`,
+      description: `Numeric columns: ${numericCols.map((c) => c.name).join(', ')}. These can be used for regression, clustering, or statistical analysis.`,
+      severity: 'info',
+      recommendation: 'Check for outliers and skewness in numeric columns before modeling.',
+    })
   }
+
+  const cleaningScript = generateCleaningScript(columns, duplicateRows > 0, missingTotal > 0, fileName)
+
+  return { insights, cleaningScript }
 }
 
-function generateCleaningScript(columns: any[], hasDuplicates: boolean, hasMissing: boolean): string {
-  const steps = []
+function generateCleaningScript(
+  columns: any[],
+  hasDuplicates: boolean,
+  hasMissing: boolean,
+  fileName: string
+): string {
+  const cleanedFileName = `cleaned_${fileName}`
+  const steps: string[] = []
 
-  steps.push('import pandas as pd\nimport numpy as np\n')
-  steps.push('# Load your dataset\ndf = pd.read_csv("your_data.csv")')
+  steps.push('import pandas as pd\nimport numpy as np')
+  steps.push(`\n# ============================================`)
+  steps.push(`# EDA Assistant — Auto-Generated Cleaning Script`)
+  steps.push(`# Dataset: ${fileName}`)
+  steps.push(`# ============================================\n`)
+  steps.push(`df = pd.read_csv("${fileName}")`)
+  steps.push(`print(f"Original shape: {df.shape}")`)
 
   if (hasDuplicates) {
-    steps.push('\n# Remove duplicate rows\ndf = df.drop_duplicates()')
+    steps.push(`\n# --- Remove duplicate rows ---`)
+    steps.push(`duplicates_before = df.duplicated().sum()`)
+    steps.push(`df = df.drop_duplicates()`)
+    steps.push(`print(f"Removed {duplicates_before} duplicate rows")`)
   }
 
   if (hasMissing) {
-    steps.push('\n# Handle missing values')
     const missingCols = columns.filter((col) => col.missing > 0)
     if (missingCols.length > 0) {
-      steps.push(
-        `# Option 1: Drop rows with missing values\n# df = df.dropna()\n\n# Option 2: Fill with appropriate values\n${missingCols.map((col) => `# df['${col.name}'].fillna(value, inplace=True)`).join('\n')}`
-      )
+      steps.push(`\n# --- Handle missing values ---`)
+      missingCols.forEach((col) => {
+        const isNumeric = col.type === 'numeric' || col.type === 'integer' || col.type === 'float'
+        if (isNumeric) {
+          steps.push(`df['${col.name}'] = df['${col.name}'].fillna(df['${col.name}'].median())  # ${col.missing} missing values filled with median`)
+        } else {
+          steps.push(`df['${col.name}'] = df['${col.name}'].fillna(df['${col.name}'].mode()[0] if not df['${col.name}'].mode().empty else 'Unknown')  # ${col.missing} missing values filled with mode`)
+        }
+      })
     }
   }
 
-  steps.push('\n# Verify data types\nprint(df.dtypes)\nprint(df.info())')
-  steps.push('\n# Summary statistics\nprint(df.describe())')
-  steps.push('\n# Save cleaned data\ndf.to_csv("cleaned_data.csv", index=False)\nprint("Data cleaning complete!")')
+  // Outlier capping for numeric columns
+  const numericCols = columns.filter(
+    (col) => col.type === 'numeric' || col.type === 'integer' || col.type === 'float'
+  )
+  if (numericCols.length > 0) {
+    steps.push(`\n# --- Cap outliers using IQR method ---`)
+    numericCols.forEach((col) => {
+      steps.push(`Q1_${col.name.replace(/\W/g, '_')} = df['${col.name}'].quantile(0.25)`)
+      steps.push(`Q3_${col.name.replace(/\W/g, '_')} = df['${col.name}'].quantile(0.75)`)
+      steps.push(`IQR_${col.name.replace(/\W/g, '_')} = Q3_${col.name.replace(/\W/g, '_')} - Q1_${col.name.replace(/\W/g, '_')}`)
+      steps.push(`df['${col.name}'] = df['${col.name}'].clip(`)
+      steps.push(`    lower=Q1_${col.name.replace(/\W/g, '_')} - 1.5 * IQR_${col.name.replace(/\W/g, '_')},`)
+      steps.push(`    upper=Q3_${col.name.replace(/\W/g, '_')} + 1.5 * IQR_${col.name.replace(/\W/g, '_')}`)
+      steps.push(`)`)
+    })
+  }
+
+  steps.push(`\n# --- Verify results ---`)
+  steps.push(`print(f"Cleaned shape: {df.shape}")`)
+  steps.push(`print(f"Missing values remaining: {df.isnull().sum().sum()}")`)
+  steps.push(`print(f"Duplicate rows remaining: {df.duplicated().sum()}")`)
+  steps.push(`print("\\nData types:")`)
+  steps.push(`print(df.dtypes)`)
+  steps.push(`print("\\nBasic statistics:")`)
+  steps.push(`print(df.describe())`)
+
+  steps.push(`\n# --- Save cleaned dataset ---`)
+  steps.push(`df.to_csv("${cleanedFileName}", index=False)`)
+  steps.push(`print(f"\\n✅ Cleaned dataset saved as: ${cleanedFileName}")`)
 
   return steps.join('\n')
 }
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const datasetId = params.id
+    const { id: datasetId } = await params
     const uploadsDir = join(process.cwd(), 'public', 'uploads')
 
-    // Find and read the dataset file
     const files = await readdir(uploadsDir)
     const datasetFile = files.find((f) => f.startsWith(datasetId))
 
     if (!datasetFile) {
-      // Return default insights if file not found
       return NextResponse.json({
         summary: 'Unable to analyze dataset. File not found.',
         insights: [],
@@ -142,7 +181,9 @@ export async function GET(
       })
     }
 
-    // Read and parse file
+    // Get real filename (strip dataset_id prefix)
+    const actualFileName = datasetFile.replace(`${datasetId}_`, '')
+
     const filePath = join(uploadsDir, datasetFile)
     const content = await readFile(filePath, 'utf-8')
     const lines = content.split('\n').filter((l) => l.trim())
@@ -156,9 +197,9 @@ export async function GET(
       })
     }
 
-    const headers = lines[0].split(',').map((h) => h.trim())
+    const headers = lines[0].split(',').map((h) => h.trim().replace(/^"|"$/g, ''))
     const dataRows = lines.slice(1).map((line) => {
-      const values = line.split(',').map((v) => v.trim())
+      const values = line.split(',').map((v) => v.trim().replace(/^"|"$/g, ''))
       const row: Record<string, string> = {}
       headers.forEach((header, idx) => {
         row[header] = values[idx] || ''
@@ -166,53 +207,51 @@ export async function GET(
       return row
     })
 
-    // Analyze columns
+    // Analyze columns with type detection
     const columns = headers.map((header) => {
       const columnValues = dataRows.map((row) => row[header] || '')
       const missing = columnValues.filter((v) => v === '').length
-      const unique = new Set(columnValues.filter((v) => v !== '')).size
+      const nonEmpty = columnValues.filter((v) => v !== '')
+      const unique = new Set(nonEmpty).size
+
+      // Detect type
+      const numericCount = nonEmpty.filter((v) => !isNaN(Number(v))).length
+      const isNumeric = numericCount > nonEmpty.length * 0.8
+      const isInteger = isNumeric && nonEmpty.every((v) => Number.isInteger(Number(v)))
 
       return {
         name: header,
         missing,
-        missingPct: (missing / columnValues.length) * 100,
+        missingPct: columnValues.length > 0 ? (missing / columnValues.length) * 100 : 0,
         unique,
-        type: 'string',
+        type: isInteger ? 'integer' : isNumeric ? 'numeric' : 'string',
       }
     })
 
-    // Calculate metrics
     const rowCount = dataRows.length
     const columnCount = headers.length
-    let missingTotal = 0
-    columns.forEach((col) => {
-      missingTotal += col.missing
-    })
+    const missingTotal = columns.reduce((sum, col) => sum + col.missing, 0)
 
     const seen = new Set()
     let duplicateRows = 0
     dataRows.forEach((row) => {
       const hash = JSON.stringify(row)
-      if (seen.has(hash)) {
-        duplicateRows++
-      } else {
-        seen.add(hash)
-      }
+      if (seen.has(hash)) duplicateRows++
+      else seen.add(hash)
     })
 
-    // Calculate quality score
     const qualityScore = calculateQualityScore(rowCount, columnCount, missingTotal, duplicateRows)
 
-    // Generate insights
     const { insights, cleaningScript } = generateInsights(
       rowCount,
       columnCount,
       missingTotal,
       duplicateRows,
-      columns
+      columns,
+      actualFileName  // ← real filename passed here
     )
 
-    const summary = `Your dataset contains ${rowCount} rows and ${columnCount} columns. Quality score: ${qualityScore}%. ${duplicateRows > 0 ? `Found ${duplicateRows} duplicate rows. ` : ''}${missingTotal > 0 ? `Found ${missingTotal} missing values.` : 'No significant data quality issues detected.'}`
+    const summary = `Your dataset "${actualFileName}" contains ${rowCount} rows and ${columnCount} columns with a quality score of ${qualityScore}%. ${duplicateRows > 0 ? `Found ${duplicateRows} duplicate rows. ` : ''}${missingTotal > 0 ? `Found ${missingTotal} missing values across ${columns.filter(c => c.missing > 0).length} columns.` : 'No missing values detected.'}`
 
     return NextResponse.json({
       summary,

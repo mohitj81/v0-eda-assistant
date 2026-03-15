@@ -4,11 +4,10 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Alert } from '@/components/ui/alert'
 import { Skeleton } from '@/components/ui/skeleton'
-import { ArrowLeft, Download, Loader2, AlertCircle } from 'lucide-react'
+import { ArrowLeft, AlertCircle } from 'lucide-react'
 import { ProfileTab } from '@/components/analysis/profile-tab'
 import { InsightsTab } from '@/components/analysis/insights-tab'
 import { ComparisonTab } from '@/components/analysis/comparison-tab'
@@ -40,11 +39,7 @@ export default function AnalysisPage() {
       try {
         setIsLoading(true)
         const response = await fetch(`/api/analysis/${datasetId}`)
-        
-        if (!response.ok) {
-          throw new Error('Failed to load dataset')
-        }
-
+        if (!response.ok) throw new Error('Failed to load dataset')
         const data = await response.json()
         setDataset(data)
         setError(null)
@@ -66,15 +61,20 @@ export default function AnalysisPage() {
       <main className="min-h-screen bg-background">
         <nav className="border-b border-border bg-card">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
-            <Link href="/" className="flex items-center gap-2 text-sm hover:text-primary transition-colors w-fit">
+            <Link
+              href="/"
+              className="flex items-center gap-2 text-sm hover:text-primary transition-colors w-fit"
+            >
               <ArrowLeft className="h-4 w-4" />
               Back
             </Link>
           </div>
         </nav>
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <Skeleton className="h-8 w-64 mb-4" />
-          <Skeleton className="h-64 w-full" />
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 space-y-4">
+          <Skeleton className="h-8 w-64" />
+          <Skeleton className="h-6 w-96" />
+          <Skeleton className="h-12 w-full" />
+          <Skeleton className="h-96 w-full" />
         </div>
       </main>
     )
@@ -86,21 +86,23 @@ export default function AnalysisPage() {
       <nav className="border-b border-border bg-card">
         <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
+            <Link
+              href="/"
+              className="flex items-center gap-2 text-sm hover:text-primary transition-colors"
+            >
               <ArrowLeft className="h-4 w-4" />
               Back
             </Link>
-            <div className="flex items-center gap-4">
-              <Button variant="outline" size="sm" asChild>
-                <Link href="/">New Analysis</Link>
-              </Button>
-            </div>
+            <Button variant="outline" size="sm" asChild>
+              <Link href="/">New Analysis</Link>
+            </Button>
           </div>
         </div>
       </nav>
 
       {/* Main Content */}
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+
         {error && (
           <Alert variant="destructive" className="mb-8">
             <AlertCircle className="h-4 w-4" />
@@ -127,28 +129,6 @@ export default function AnalysisPage() {
                 )}
               </div>
             </div>
-
-            {/* Stats Cards */}
-            {dataset.stats && (
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-                <Card className="p-6">
-                  <div className="text-sm text-muted-foreground mb-1">Total Rows</div>
-                  <div className="text-2xl font-bold">{dataset.stats.rows.toLocaleString()}</div>
-                </Card>
-                <Card className="p-6">
-                  <div className="text-sm text-muted-foreground mb-1">Total Columns</div>
-                  <div className="text-2xl font-bold">{dataset.stats.columns}</div>
-                </Card>
-                <Card className="p-6">
-                  <div className="text-sm text-muted-foreground mb-1">Missing Values</div>
-                  <div className="text-2xl font-bold text-orange-500">{dataset.stats.missingValues}</div>
-                </Card>
-                <Card className="p-6">
-                  <div className="text-sm text-muted-foreground mb-1">Duplicates</div>
-                  <div className="text-2xl font-bold text-red-500">{dataset.stats.duplicates}</div>
-                </Card>
-              </div>
-            )}
 
             {/* Analysis Tabs */}
             <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">

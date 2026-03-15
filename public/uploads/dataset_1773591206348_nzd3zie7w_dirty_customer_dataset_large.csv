@@ -1,0 +1,1251 @@
+CustomerID,Age,Gender,Country,TenureMonths,MonthlySpend,SupportTickets,ContractType,PaymentMethod,Churn
+1000,56,M,UK,52.0,46.64,1.0,Monthly,,No
+1001,,Female,india,53.0,89.57,2.0,,PayPal,No
+1002,19,Male,,24.0,65.92,1.0,monthly,Credit Card,Yes
+1003,29,M,india,58.0,96.28,2.0,,Credit Card,No
+1004,59,M,india,28.0,86.66,4.0,Monthly,PayPal,Yes
+1005,26,M,UK,39.0,56.96,0.0,Monthly,,Yes
+1006,42,F,Australia,14.0,61.99,0.0,monthly,Credit Card,Yes
+1007,37,F,Canada,28.0,108.42,1.0,Yearly,,No
+1008,25,F,UK,47.0,68.41,2.0,,crypto,No
+1009,59,Female,india,4.0,45.24,3.0,Yearly,,No
+1010,53,,Australia,14.0,52.78,,Monthly,,No
+1011,41,M,Australia,26.0,2657.0,3.0,,Credit Card,No
+1012,62,Female,UK,1.0,78.69,1.0,Monthly,,No
+1013,28,M,,51.0,71.74,3.0,Monthly,Credit Card,No
+1014,56,,,58.0,34.76,0.0,,,No
+1015,40,,Usa,24.0,112.99,2.0,,,No
+1016,52,M,USA,1.0,89.81,3.0,Monthly,PayPal,Yes
+1017,44,Male,india,9.0,77.57,1.0,,,No
+1018,30,F,UK,51.0,82.61,3.0,Monthly,,Yes
+1019,62,Male,UK,15.0,71.03,2.0,,PayPal,Yes
+1020,68,,USA,22.0,88.79,1.0,Yearly,PayPal,No
+1021,45,F,USA,28.0,3698.0,1.0,,Bank Transfer,No
+1022,28,,Usa,58.0,70.17,3.0,,,Yes
+1023,30,,Australia,41.0,54.15,1.0,Monthly,PayPal,Yes
+1024,44,Female,Australia,9.0,138.35,1.0,,Credit Card,No
+1025,49,M,Canada,32.0,75.4,2.0,monthly,crypto,No
+1026,69,Male,Australia,12.0,79.44,1.0,,Bank Transfer,Yes
+1027,34,Female,Canada,59.0,29.79,2.0,,Credit Card,No
+1028,54,Female,Canada,32.0,74.23,1.0,,PayPal,No
+1029,49,M,india,6.0,89.05,2.0,,Bank Transfer,Yes
+1030,,,Canada,38.0,122.08,2.0,Monthly,Credit Card,Yes
+1031,50,,india,9.0,37.94,1.0,Monthly,Bank Transfer,Yes
+1032,46,M,,3.0,131.2,0.0,Yearly,PayPal,Yes
+1033,20,,Canada,19.0,106.21,1.0,Yearly,Bank Transfer,Yes
+1034,58,Male,,33.0,92.84,3.0,Yearly,PayPal,Yes
+1035,48,M,,30.0,5.91,2.0,,Bank Transfer,Yes
+1036,65,Female,india,57.0,28.68,4.0,monthly,crypto,Yes
+1037,58,M,USA,35.0,4910.0,7.0,Yearly,Bank Transfer,No
+1038,57,M,india,20.0,24.51,3.0,monthly,,No
+1039,19,,UK,54.0,115.06,2.0,Yearly,,No
+1040,21,M,Canada,33.0,40.1,3.0,,crypto,Yes
+1041,65,,UK,12.0,79.24,2.0,Monthly,PayPal,No
+1042,47,Male,USA,38.0,79.66,3.0,,,Yes
+1043,64,F,UK,33.0,92.4,2.0,Monthly,crypto,Yes
+1044,52,,Australia,49.0,26.5,4.0,,,No
+1045,48,,,35.0,72.71,1.0,Yearly,,No
+1046,38,,Canada,32.0,66.6,1.0,Monthly,,No
+1047,48,,USA,54.0,105.69,2.0,Monthly,crypto,No
+1048,49,Male,UK,47.0,111.72,3.0,Monthly,,No
+1049,46,M,,42.0,81.54,5.0,,,Yes
+1050,62,F,USA,20.0,119.93,3.0,,PayPal,Yes
+1051,19,,USA,32.0,109.65,1.0,monthly,crypto,No
+1052,42,F,Canada,58.0,26.35,1.0,Monthly,,Yes
+1053,69,,USA,42.0,90.72,2.0,Yearly,Credit Card,Yes
+1054,50,Male,india,8.0,58.54,1.0,,,Yes
+1055,62,M,USA,32.0,100.39,3.0,,crypto,Yes
+1056,30,,UK,50.0,19.25,2.0,Monthly,,Yes
+1057,43,M,USA,37.0,85.59,1.0,Monthly,crypto,No
+1058,26,,UK,12.0,43.99,1.0,,crypto,No
+1059,65,M,Canada,25.0,69.96,3.0,Yearly,crypto,No
+1060,22,M,UK,22.0,44.49,0.0,,,No
+1061,46,Female,USA,14.0,86.87,0.0,,,No
+1062,unknown,M,UK,49.0,100.97,2.0,,,No
+1063,27,M,Canada,54.0,98.0,1.0,Yearly,Bank Transfer,Yes
+1064,48,,UK,10.0,81.76,2.0,,,No
+1065,41,M,UK,16.0,150.44,1.0,Monthly,Credit Card,No
+1066,49,F,USA,27.0,98.24,1.0,Yearly,Credit Card,No
+1067,68,Male,Australia,43.0,110.98,4.0,,Bank Transfer,Yes
+1068,30,F,india,12.0,88.43,0.0,,Bank Transfer,No
+1069,25,,Usa,29.0,61.32,1.0,Monthly,PayPal,Yes
+1070,51,Male,Australia,51.0,61.33,5.0,monthly,,No
+1071,27,M,,37.0,69.34,4.0,Monthly,,Yes
+1072,56,Female,USA,32.0,96.41,4.0,monthly,crypto,Yes
+1073,34,F,Canada,49.0,73.93,,,,No
+1074,36,Female,Usa,49.0,67.66,4.0,monthly,,Yes
+1075,22,,Usa,35.0,109.52,2.0,,Credit Card,No
+1076,40,,USA,16.0,59.03,3.0,,,Yes
+1077,35,M,USA,47.0,79.74,1.0,,crypto,No
+1078,61,,,17.0,67.0,2.0,Yearly,Bank Transfer,No
+1079,54,Male,Usa,38.0,86.11,3.0,,crypto,Yes
+1080,24,Male,Australia,25.0,27.7,2.0,monthly,,No
+1081,56,F,UK,27.0,112.08,1.0,Yearly,Credit Card,No
+1082,20,M,,45.0,79.44,0.0,,,No
+1083,45,F,Canada,8.0,71.34,0.0,Yearly,,Yes
+1084,58,F,USA,39.0,95.58,2.0,Yearly,crypto,Yes
+1085,50,M,,38.0,125.98,4.0,Monthly,,Yes
+1086,33,Female,USA,54.0,105.31,0.0,Monthly,Bank Transfer,No
+1087,64,F,,41.0,48.01,1.0,monthly,PayPal,Yes
+1088,18,,Usa,53.0,53.08,3.0,Monthly,Bank Transfer,Yes
+1089,55,Female,UK,12.0,125.77,0.0,Monthly,,No
+1090,25,,UK,58.0,75.27,2.0,,Bank Transfer,Yes
+1091,58,,Canada,36.0,39.35,3.0,Yearly,crypto,No
+1092,37,M,india,13.0,,5.0,,Bank Transfer,Yes
+1093,47,,USA,50.0,94.76,1.0,Yearly,,No
+1094,50,M,Usa,54.0,88.86,4.0,Monthly,,Yes
+1095,52,,Canada,1.0,47.08,0.0,Yearly,PayPal,Yes
+1096,23,M,india,28.0,80.16,4.0,,Bank Transfer,No
+1097,63,Male,UK,1.0,81.41,2.0,,,No
+1098,66,M,india,40.0,33.98,0.0,,,No
+1099,43,Male,india,58.0,118.33,4.0,Monthly,,No
+1100,22,F,USA,30.0,72.53,0.0,Monthly,PayPal,Yes
+1101,64,,Usa,23.0,109.15,3.0,,,Yes
+1102,55,M,USA,34.0,111.75,3.0,monthly,Credit Card,No
+1103,55,M,USA,33.0,27.24,5.0,,Credit Card,Yes
+1104,34,Male,USA,10.0,83.84,1.0,Monthly,,Yes
+1105,60,Female,Canada,48.0,65.56,2.0,Yearly,PayPal,No
+1106,33,Male,UK,,128.35,1.0,Yearly,Bank Transfer,Yes
+1107,42,Male,Usa,3.0,55.61,4.0,,,Yes
+1108,38,,india,5.0,41.59,0.0,,crypto,Yes
+1109,23,Male,USA,1.0,40.95,3.0,,,No
+1110,43,M,Australia,45.0,61.24,3.0,,,Yes
+1111,65,F,Canada,17.0,71.79,3.0,monthly,,No
+1112,32,F,USA,47.0,71.75,2.0,monthly,PayPal,Yes
+1113,62,M,Usa,26.0,10.94,0.0,Monthly,Bank Transfer,No
+1114,68,Female,UK,7.0,106.01,1.0,monthly,Credit Card,No
+1115,35,,,58.0,94.13,,monthly,Credit Card,Yes
+1116,54,M,Canada,,60.6,0.0,Yearly,,Yes
+1117,34,F,Australia,13.0,47.55,4.0,,,Yes
+1118,64,,USA,22.0,125.69,1.0,,crypto,No
+1119,58,M,Australia,37.0,96.17,2.0,monthly,Credit Card,Yes
+1120,62,Male,UK,6.0,38.04,0.0,monthly,Credit Card,Yes
+1121,23,Female,Australia,6.0,96.89,1.0,monthly,Credit Card,No
+1122,28,Male,Australia,30.0,81.46,2.0,,Bank Transfer,Yes
+1123,19,Female,,20.0,55.07,4.0,,Credit Card,Yes
+1124,68,Male,Australia,57.0,88.58,2.0,Monthly,,Yes
+1125,43,M,Canada,54.0,133.49,2.0,Yearly,Bank Transfer,Yes
+1126,29,,USA,47.0,109.62,0.0,,crypto,No
+1127,28,Female,Australia,36.0,102.93,2.0,Monthly,Bank Transfer,Yes
+1128,27,Male,Canada,5.0,110.19,2.0,,,No
+1129,28,,USA,15.0,62.69,2.0,,,Yes
+1130,66,M,Usa,5.0,91.13,2.0,,,Yes
+1131,57,F,Australia,22.0,61.88,0.0,monthly,Credit Card,No
+1132,46,M,Canada,8.0,95.96,2.0,monthly,Credit Card,Yes
+1133,36,,Usa,59.0,100.89,3.0,,crypto,No
+1134,35,,Usa,40.0,133.17,3.0,Monthly,Bank Transfer,No
+1135,50,F,UK,25.0,68.05,2.0,Monthly,,Yes
+1136,57,,UK,40.0,53.46,3.0,,PayPal,No
+1137,,,UK,47.0,88.61,4.0,Yearly,,Yes
+1138,50,F,,37.0,65.09,2.0,monthly,crypto,No
+1139,27,,UK,33.0,91.64,0.0,Monthly,,Yes
+1140,30,M,Australia,31.0,56.62,3.0,Yearly,crypto,No
+1141,21,F,india,12.0,14.1,1.0,monthly,Credit Card,No
+1142,68,M,,51.0,131.18,4.0,,Credit Card,Yes
+1143,,Female,india,47.0,95.51,3.0,Yearly,Bank Transfer,Yes
+1144,,,Australia,25.0,106.04,1.0,,,Yes
+1145,65,Male,india,4.0,51.9,1.0,,Bank Transfer,Yes
+1146,59,,india,,136.46,4.0,monthly,Bank Transfer,Yes
+1147,63,Female,Usa,37.0,120.36,2.0,Yearly,Credit Card,No
+1148,18,Female,,54.0,156.16,1.0,Yearly,Credit Card,No
+1149,,Female,USA,10.0,95.72,1.0,,Bank Transfer,Yes
+1150,58,M,,35.0,105.57,2.0,monthly,crypto,No
+1151,51,F,Canada,27.0,10.38,1.0,,Bank Transfer,Yes
+1152,61,,,59.0,72.63,3.0,monthly,Bank Transfer,No
+1153,60,,Australia,22.0,71.82,1.0,,Bank Transfer,Yes
+1154,66,M,india,7.0,78.89,3.0,,,No
+1155,,,Canada,1.0,92.88,1.0,,Bank Transfer,No
+1156,68,Female,india,59.0,62.99,2.0,Monthly,,Yes
+1157,33,,USA,40.0,113.87,2.0,monthly,,No
+1158,67,Male,Australia,2.0,33.96,2.0,monthly,,No
+1159,25,M,Canada,29.0,163.88,0.0,monthly,,Yes
+1160,20,Female,UK,32.0,95.41,5.0,,PayPal,Yes
+1161,20,,Usa,24.0,71.17,1.0,Yearly,Bank Transfer,Yes
+1162,25,M,UK,54.0,104.38,7.0,Yearly,crypto,Yes
+1163,69,M,UK,37.0,23.58,1.0,,Bank Transfer,Yes
+1164,65,,Canada,18.0,89.78,3.0,Yearly,,Yes
+1165,59,,Canada,2.0,42.47,,Monthly,,No
+1166,37,F,india,5.0,115.56,2.0,monthly,crypto,Yes
+1167,39,M,Australia,44.0,59.9,1.0,Yearly,Bank Transfer,Yes
+1168,63,,,23.0,69.93,0.0,Monthly,Bank Transfer,Yes
+1169,31,Female,UK,9.0,120.38,2.0,Yearly,PayPal,No
+1170,39,Female,,43.0,48.67,6.0,,Credit Card,Yes
+1171,51,Female,UK,17.0,73.33,3.0,,Bank Transfer,Yes
+1172,39,M,Usa,21.0,53.04,2.0,,PayPal,No
+1173,24,,Australia,10.0,52.71,3.0,Monthly,PayPal,Yes
+1174,19,M,india,54.0,69.56,2.0,,Credit Card,Yes
+1175,,F,india,11.0,85.96,2.0,,Bank Transfer,Yes
+1176,52,M,india,54.0,142.44,3.0,monthly,crypto,Yes
+1177,37,F,india,19.0,70.86,1.0,,crypto,No
+1178,62,,india,43.0,114.48,0.0,,crypto,Yes
+1179,26,,Usa,40.0,3069.0,3.0,Yearly,crypto,No
+1180,56,Male,Usa,35.0,94.99,2.0,,crypto,No
+1181,36,,Canada,37.0,95.98,0.0,monthly,,No
+1182,66,,Canada,17.0,77.77,1.0,Yearly,,No
+1183,41,,Canada,19.0,98.62,5.0,,Bank Transfer,Yes
+1184,42,,USA,12.0,92.89,1.0,Yearly,,No
+1185,24,Female,USA,14.0,86.23,0.0,,PayPal,Yes
+1186,24,,Australia,9.0,,3.0,Yearly,crypto,No
+1187,52,M,Canada,18.0,75.38,3.0,Yearly,,Yes
+1188,61,Female,USA,45.0,86.66,2.0,monthly,Credit Card,Yes
+1189,32,M,Canada,56.0,65.64,3.0,Yearly,,No
+1190,33,M,UK,45.0,39.52,,monthly,Bank Transfer,Yes
+1191,59,F,,34.0,97.57,0.0,Yearly,crypto,No
+1192,unknown,F,UK,13.0,99.23,0.0,,Credit Card,No
+1193,63,Male,Usa,52.0,74.84,0.0,monthly,,Yes
+1194,66,M,india,29.0,79.27,2.0,,Bank Transfer,No
+1195,47,,,25.0,63.34,2.0,Monthly,,No
+1196,66,,USA,3.0,24.16,3.0,Yearly,PayPal,No
+1197,63,,UK,15.0,71.01,2.0,Monthly,crypto,Yes
+1198,29,Male,india,59.0,75.03,4.0,Monthly,,Yes
+1199,69,M,Usa,4.0,55.23,3.0,,Credit Card,No
+1200,62,,Usa,46.0,60.87,1.0,,crypto,Yes
+1201,20,,UK,56.0,64.07,1.0,,PayPal,Yes
+1202,64,M,Australia,23.0,122.62,1.0,Yearly,crypto,No
+1203,49,,,35.0,62.88,1.0,Monthly,PayPal,Yes
+1204,64,F,india,25.0,126.43,0.0,,PayPal,Yes
+1205,58,Female,india,56.0,133.88,1.0,,,No
+1206,26,,india,3.0,96.3,1.0,Yearly,,No
+1207,41,M,Usa,15.0,112.51,0.0,Yearly,Bank Transfer,No
+1208,22,Female,,48.0,54.77,2.0,Monthly,,No
+1209,34,Female,Australia,50.0,79.75,3.0,monthly,Credit Card,Yes
+1210,57,,india,34.0,113.11,3.0,,PayPal,No
+1211,65,M,USA,41.0,83.98,1.0,,PayPal,Yes
+1212,59,M,,36.0,121.46,2.0,monthly,,No
+1213,68,,Australia,31.0,99.46,1.0,Monthly,,Yes
+1214,unknown,,india,53.0,59.31,3.0,,,Yes
+1215,49,,Canada,13.0,94.85,3.0,,crypto,Yes
+1216,41,Female,Usa,45.0,70.77,4.0,Monthly,,Yes
+1217,47,,USA,37.0,86.57,0.0,Yearly,Credit Card,Yes
+1218,21,,Usa,20.0,66.61,2.0,Monthly,,No
+1219,,M,india,54.0,4027.0,2.0,Monthly,Credit Card,Yes
+1220,67,M,,14.0,63.23,1.0,,,Yes
+1221,28,,,33.0,91.32,2.0,Monthly,crypto,No
+1222,40,,USA,26.0,76.61,1.0,monthly,,Yes
+1223,58,Female,UK,39.0,43.25,2.0,Monthly,,No
+1224,49,Male,UK,2.0,58.3,0.0,,Credit Card,No
+1225,20,F,Usa,17.0,101.93,1.0,Monthly,,No
+1226,46,Male,Canada,21.0,24.6,3.0,monthly,Credit Card,No
+1227,66,Female,Canada,25.0,63.0,3.0,,Credit Card,No
+1228,63,Male,Canada,25.0,90.28,4.0,monthly,Bank Transfer,Yes
+1229,41,F,Canada,58.0,93.7,3.0,,,No
+1230,34,,USA,44.0,90.97,,,crypto,Yes
+1231,39,Female,india,54.0,32.61,2.0,monthly,crypto,Yes
+1232,30,F,Canada,17.0,66.43,2.0,,,Yes
+1233,50,Male,Australia,38.0,7.28,3.0,monthly,crypto,Yes
+1234,29,,UK,57.0,70.3,1.0,,,Yes
+1235,50,F,Canada,10.0,81.43,2.0,,Credit Card,No
+1236,50,M,,33.0,65.87,2.0,,PayPal,No
+1237,67,,Australia,15.0,112.25,1.0,,,No
+1238,66,M,Usa,40.0,121.98,0.0,Yearly,,No
+1239,23,,Usa,9.0,107.74,0.0,,Credit Card,Yes
+1240,49,,india,41.0,100.95,4.0,,,Yes
+1241,37,Male,Canada,16.0,91.8,3.0,Yearly,Bank Transfer,No
+1242,58,,Australia,42.0,130.57,3.0,Monthly,Bank Transfer,Yes
+1243,36,M,Usa,55.0,66.19,3.0,,PayPal,Yes
+1244,49,F,UK,51.0,40.66,2.0,,Credit Card,Yes
+1245,68,Male,Usa,35.0,115.95,1.0,,Credit Card,Yes
+1246,32,Male,Canada,33.0,69.9,5.0,,,No
+1247,41,F,india,50.0,90.55,4.0,,Credit Card,Yes
+1248,19,Male,UK,15.0,74.82,3.0,,crypto,No
+1249,62,,Usa,18.0,106.51,2.0,Yearly,Bank Transfer,No
+1250,25,Male,Australia,36.0,89.71,1.0,,crypto,No
+1251,64,F,UK,14.0,71.26,2.0,monthly,PayPal,No
+1252,23,,,17.0,91.23,2.0,,Bank Transfer,Yes
+1253,57,Female,Australia,12.0,77.39,0.0,Monthly,crypto,No
+1254,62,F,,23.0,33.32,0.0,,,No
+1255,31,F,UK,16.0,71.83,3.0,,Bank Transfer,No
+1256,37,,Canada,8.0,125.02,1.0,Monthly,PayPal,No
+1257,60,,UK,37.0,105.51,3.0,Yearly,,No
+1258,45,M,Usa,47.0,70.9,0.0,Monthly,crypto,No
+1259,67,F,Australia,14.0,1263.0,0.0,monthly,Credit Card,No
+1260,54,Female,Australia,20.0,84.48,1.0,,crypto,No
+1261,22,Male,USA,33.0,,1.0,Yearly,crypto,No
+1262,,Female,Usa,20.0,107.49,2.0,monthly,Credit Card,No
+1263,61,,UK,38.0,90.39,1.0,,,Yes
+1264,unknown,F,USA,52.0,51.85,,monthly,Credit Card,No
+1265,25,Female,Australia,29.0,99.33,2.0,monthly,PayPal,No
+1266,51,Female,Usa,1.0,79.07,,Yearly,crypto,No
+1267,25,Female,Australia,25.0,140.1,2.0,Yearly,Credit Card,No
+1268,33,Female,UK,14.0,129.0,0.0,,Bank Transfer,Yes
+1269,45,M,UK,2.0,45.61,1.0,Monthly,PayPal,No
+1270,26,,india,33.0,,4.0,monthly,PayPal,No
+1271,63,M,india,4.0,72.43,5.0,Monthly,,Yes
+1272,,Male,,54.0,39.78,3.0,,,No
+1273,46,,UK,25.0,114.93,3.0,Yearly,,No
+1274,28,,Usa,35.0,93.53,6.0,Yearly,Credit Card,Yes
+1275,42,F,india,12.0,48.53,1.0,Monthly,Credit Card,Yes
+1276,32,M,india,44.0,7.51,4.0,monthly,,Yes
+1277,60,F,Canada,55.0,64.01,1.0,,crypto,No
+1278,32,Female,Canada,25.0,44.4,1.0,Monthly,PayPal,Yes
+1279,,Female,USA,34.0,125.92,1.0,Monthly,,No
+1280,69,,Canada,46.0,109.13,2.0,Monthly,PayPal,Yes
+1281,35,F,USA,2.0,61.48,1.0,Monthly,,No
+1282,,,,30.0,96.5,1.0,,PayPal,Yes
+1283,24,Male,UK,56.0,50.95,,monthly,Credit Card,No
+1284,37,Male,UK,4.0,94.31,0.0,Yearly,,No
+1285,30,,Australia,55.0,11.69,4.0,Monthly,,Yes
+1286,41,,india,58.0,102.19,2.0,monthly,crypto,No
+1287,21,Male,UK,50.0,72.39,5.0,,crypto,No
+1288,67,Female,Australia,5.0,95.73,2.0,monthly,,Yes
+1289,65,Female,USA,37.0,57.95,3.0,monthly,Bank Transfer,Yes
+1290,,F,india,13.0,77.35,1.0,Yearly,Credit Card,Yes
+1291,38,Female,UK,18.0,157.39,2.0,Monthly,,No
+1292,66,Male,UK,11.0,89.08,2.0,monthly,Credit Card,Yes
+1293,57,,Australia,37.0,,2.0,Yearly,Bank Transfer,Yes
+1294,23,F,UK,41.0,49.33,2.0,,,No
+1295,49,Female,Australia,21.0,142.4,2.0,,Credit Card,No
+1296,61,,,58.0,116.83,4.0,Yearly,Credit Card,No
+1297,25,M,USA,22.0,43.71,2.0,Yearly,PayPal,Yes
+1298,48,,,47.0,85.08,0.0,,crypto,No
+1299,33,Female,UK,12.0,37.59,4.0,,Credit Card,No
+1300,45,,UK,51.0,82.19,3.0,Yearly,crypto,Yes
+1301,56,Female,USA,32.0,2150.0,0.0,Yearly,Bank Transfer,Yes
+1302,,Female,,12.0,101.24,0.0,,,Yes
+1303,50,Female,Usa,23.0,108.7,1.0,Yearly,,No
+1304,38,Female,Australia,2.0,82.62,1.0,,crypto,Yes
+1305,40,,UK,26.0,101.24,5.0,Monthly,PayPal,No
+1306,59,Male,,12.0,66.84,5.0,monthly,PayPal,Yes
+1307,38,Male,Usa,,114.99,1.0,,crypto,No
+1308,35,F,,14.0,81.52,1.0,Monthly,Credit Card,No
+1309,,Male,USA,36.0,85.11,1.0,Monthly,Bank Transfer,No
+1310,33,,UK,54.0,64.51,3.0,Yearly,crypto,No
+1311,38,Male,USA,34.0,107.95,1.0,Monthly,crypto,Yes
+1312,62,,Australia,12.0,77.89,2.0,Monthly,crypto,Yes
+1313,23,F,Usa,32.0,94.6,1.0,,Bank Transfer,Yes
+1314,40,F,Canada,19.0,114.32,1.0,Monthly,Credit Card,No
+1315,28,,UK,50.0,19.53,0.0,,,No
+1316,32,M,USA,9.0,43.08,0.0,,,Yes
+1317,45,Female,UK,46.0,72.19,0.0,,PayPal,Yes
+1318,33,,,16.0,80.47,4.0,monthly,,No
+1319,unknown,,india,39.0,58.14,4.0,,,Yes
+1320,44,Male,,28.0,40.49,2.0,,,No
+1321,44,Female,Canada,21.0,77.75,0.0,,Bank Transfer,Yes
+1322,,M,Canada,,63.61,1.0,,,Yes
+1323,38,M,Usa,26.0,91.75,4.0,Monthly,PayPal,No
+1324,52,,Australia,49.0,21.2,1.0,Yearly,Credit Card,No
+1325,43,,india,,141.82,3.0,Yearly,Credit Card,No
+1326,46,Female,Canada,52.0,70.79,1.0,Monthly,PayPal,No
+1327,34,F,india,56.0,110.78,2.0,Monthly,Bank Transfer,Yes
+1328,46,,,33.0,77.35,5.0,monthly,,No
+1329,41,,USA,45.0,107.64,1.0,Yearly,Bank Transfer,No
+1330,18,M,Australia,23.0,73.13,0.0,monthly,,No
+1331,unknown,,,1.0,82.7,0.0,Monthly,crypto,Yes
+1332,41,M,,35.0,55.93,1.0,Yearly,PayPal,Yes
+1333,32,,Australia,19.0,118.96,1.0,monthly,Bank Transfer,No
+1334,60,,Usa,58.0,88.48,2.0,,,No
+1335,49,,Canada,48.0,58.76,4.0,Monthly,crypto,Yes
+1336,67,,,3.0,88.44,3.0,Yearly,Bank Transfer,Yes
+1337,67,M,Canada,10.0,52.23,4.0,,,Yes
+1338,48,Male,,16.0,96.15,0.0,Yearly,PayPal,Yes
+1339,32,F,UK,17.0,112.18,2.0,Yearly,Bank Transfer,Yes
+1340,,Female,india,58.0,97.38,1.0,,crypto,No
+1341,49,F,USA,51.0,84.43,,monthly,,Yes
+1342,unknown,,UK,49.0,89.07,3.0,,,No
+1343,63,M,Canada,7.0,30.22,1.0,Yearly,Bank Transfer,No
+1344,39,F,USA,22.0,91.99,2.0,,,Yes
+1345,41,Male,Australia,44.0,60.46,3.0,Monthly,,Yes
+1346,unknown,,USA,23.0,102.6,2.0,Yearly,PayPal,Yes
+1347,59,,india,58.0,91.43,0.0,Monthly,,Yes
+1348,18,F,UK,44.0,73.73,2.0,monthly,,No
+1349,63,F,UK,39.0,54.48,,Monthly,Credit Card,No
+1350,53,,USA,22.0,86.93,1.0,monthly,Bank Transfer,No
+1351,51,Male,,53.0,87.09,1.0,Monthly,Credit Card,Yes
+1352,68,Female,Canada,31.0,101.67,3.0,Monthly,Bank Transfer,No
+1353,41,F,Canada,54.0,68.82,2.0,Yearly,Credit Card,Yes
+1354,57,Female,USA,39.0,115.0,0.0,Yearly,,No
+1355,24,,,4.0,62.81,2.0,,crypto,Yes
+1356,69,Male,Usa,4.0,79.4,2.0,Yearly,,No
+1357,36,,USA,49.0,60.0,1.0,,PayPal,Yes
+1358,,,,45.0,96.6,2.0,monthly,PayPal,No
+1359,66,Female,india,55.0,65.19,1.0,,crypto,Yes
+1360,66,Male,Australia,59.0,3804.0,2.0,Monthly,Credit Card,No
+1361,23,,Usa,4.0,100.95,1.0,,Bank Transfer,No
+1362,32,F,USA,6.0,,2.0,monthly,,No
+1363,47,Female,Australia,54.0,38.7,2.0,,PayPal,Yes
+1364,36,Female,Australia,42.0,67.66,2.0,Monthly,,Yes
+1365,38,,india,10.0,95.86,3.0,Monthly,,No
+1366,56,,,50.0,83.0,0.0,Yearly,Credit Card,No
+1367,58,M,india,54.0,84.38,1.0,Yearly,Bank Transfer,No
+1368,48,F,,20.0,90.6,0.0,monthly,,No
+1369,61,,UK,42.0,83.65,1.0,Yearly,,Yes
+1370,52,M,Usa,55.0,73.21,2.0,,,No
+1371,30,Male,india,6.0,91.02,0.0,monthly,PayPal,No
+1372,62,Male,Usa,36.0,7.27,2.0,,Credit Card,Yes
+1373,28,Female,india,20.0,106.52,0.0,,crypto,No
+1374,65,M,india,7.0,114.79,4.0,,PayPal,No
+1375,40,,UK,26.0,68.69,1.0,Monthly,PayPal,Yes
+1376,68,Male,Australia,25.0,61.78,0.0,Monthly,Bank Transfer,No
+1377,39,Female,Canada,55.0,128.88,2.0,monthly,crypto,No
+1378,45,,UK,58.0,123.16,2.0,,,No
+1379,51,Female,Usa,1.0,86.29,1.0,,crypto,Yes
+1380,39,Female,Usa,48.0,73.97,3.0,monthly,crypto,Yes
+1381,64,M,USA,40.0,75.75,0.0,,crypto,Yes
+1382,27,M,india,35.0,60.62,1.0,,Credit Card,Yes
+1383,63,Female,,52.0,56.02,1.0,,,Yes
+1384,38,F,Usa,15.0,71.25,2.0,,Credit Card,Yes
+1385,42,F,Usa,56.0,33.1,3.0,Monthly,,Yes
+1386,23,,,39.0,111.15,3.0,monthly,,Yes
+1387,27,F,Australia,8.0,95.16,2.0,,,No
+1388,38,,,8.0,66.58,,,PayPal,Yes
+1389,,F,india,6.0,118.43,4.0,monthly,PayPal,No
+1390,57,Female,UK,38.0,69.96,2.0,,Credit Card,No
+1391,60,,USA,37.0,67.89,2.0,monthly,PayPal,Yes
+1392,49,Female,Canada,9.0,80.73,5.0,Yearly,,No
+1393,55,Female,USA,58.0,122.37,1.0,monthly,Bank Transfer,Yes
+1394,44,F,Australia,5.0,115.62,2.0,,Credit Card,No
+1395,22,,UK,35.0,157.69,2.0,Monthly,,Yes
+1396,67,,UK,6.0,49.8,3.0,,,Yes
+1397,51,,Usa,22.0,114.2,2.0,monthly,,Yes
+1398,38,,Usa,28.0,63.04,2.0,,,Yes
+1399,40,M,USA,48.0,67.68,4.0,Monthly,,Yes
+1400,50,F,Australia,20.0,65.33,1.0,Monthly,,No
+1401,64,,india,39.0,88.92,1.0,Monthly,,No
+1402,18,,Australia,8.0,106.04,1.0,,Credit Card,Yes
+1403,38,,Usa,35.0,68.66,4.0,Monthly,,Yes
+1404,26,Male,Australia,35.0,105.78,0.0,,Credit Card,Yes
+1405,,Female,UK,34.0,90.39,3.0,monthly,PayPal,No
+1406,52,Male,Usa,19.0,63.94,4.0,,crypto,No
+1407,68,,UK,3.0,77.28,2.0,monthly,PayPal,No
+1408,24,Male,UK,14.0,,3.0,,,No
+1409,55,Female,Australia,53.0,112.58,1.0,Monthly,Credit Card,No
+1410,47,,,,79.42,2.0,,Bank Transfer,Yes
+1411,31,F,,30.0,70.9,1.0,,Credit Card,No
+1412,45,Female,,8.0,69.29,3.0,Monthly,,Yes
+1413,66,Male,Australia,48.0,103.83,0.0,Yearly,crypto,No
+1414,52,,Canada,11.0,57.99,2.0,,,No
+1415,26,F,Canada,9.0,81.08,5.0,Yearly,,Yes
+1416,29,,UK,54.0,124.22,4.0,,,Yes
+1417,37,Male,,57.0,69.44,2.0,Monthly,Bank Transfer,Yes
+1418,45,,Australia,4.0,72.3,5.0,,Credit Card,Yes
+1419,23,Female,,22.0,7.92,,,,Yes
+1420,29,M,UK,6.0,73.39,1.0,,Bank Transfer,No
+1421,62,Male,Usa,20.0,17.96,1.0,,,No
+1422,55,Female,india,49.0,112.53,,Yearly,crypto,Yes
+1423,58,M,USA,9.0,62.67,3.0,,Bank Transfer,No
+1424,56,Female,,55.0,79.44,2.0,Monthly,crypto,Yes
+1425,63,Female,Usa,45.0,112.28,2.0,,Credit Card,No
+1426,25,,Usa,53.0,105.24,4.0,monthly,PayPal,No
+1427,63,Female,Australia,23.0,45.04,2.0,Yearly,PayPal,Yes
+1428,37,Male,USA,18.0,104.56,2.0,,Credit Card,No
+1429,64,,,28.0,43.85,3.0,,PayPal,Yes
+1430,58,F,india,39.0,133.46,4.0,,Credit Card,No
+1431,unknown,,UK,57.0,48.04,1.0,Yearly,,No
+1432,23,,Canada,27.0,86.3,5.0,monthly,Bank Transfer,No
+1433,62,Female,india,15.0,130.6,0.0,,crypto,No
+1434,38,,UK,49.0,3953.0,1.0,,,No
+1435,38,,,54.0,35.45,2.0,monthly,crypto,Yes
+1436,26,M,Canada,53.0,87.87,,Monthly,Bank Transfer,Yes
+1437,20,,UK,28.0,111.54,2.0,,Credit Card,No
+1438,28,Female,,48.0,77.65,2.0,,crypto,Yes
+1439,24,M,Canada,4.0,69.63,0.0,,Bank Transfer,No
+1440,18,Male,UK,1.0,75.37,2.0,Monthly,PayPal,Yes
+1441,64,F,india,31.0,92.92,2.0,Monthly,Bank Transfer,Yes
+1442,22,F,Canada,8.0,42.97,3.0,,PayPal,Yes
+1443,,M,,30.0,62.23,0.0,,PayPal,Yes
+1444,20,,Usa,11.0,26.98,1.0,monthly,crypto,Yes
+1445,47,M,Australia,42.0,,1.0,Yearly,Bank Transfer,No
+1446,unknown,F,,37.0,4026.0,2.0,Monthly,,No
+1447,64,F,Australia,52.0,43.38,0.0,Yearly,Bank Transfer,Yes
+1448,49,,,48.0,158.99,1.0,monthly,crypto,Yes
+1449,40,M,USA,51.0,25.83,3.0,Yearly,Bank Transfer,Yes
+1450,38,Male,UK,46.0,46.56,2.0,Monthly,PayPal,Yes
+1451,41,M,Australia,35.0,102.39,1.0,Monthly,Bank Transfer,Yes
+1452,53,Male,Canada,51.0,101.31,1.0,monthly,crypto,Yes
+1453,41,Female,Australia,58.0,105.65,,,,Yes
+1454,22,F,Australia,17.0,95.71,0.0,Monthly,,Yes
+1455,44,Female,Canada,53.0,88.14,2.0,,Bank Transfer,Yes
+1456,38,Male,Australia,54.0,844.0,4.0,,PayPal,No
+1457,36,F,USA,26.0,88.4,4.0,Monthly,Credit Card,No
+1458,55,Male,UK,11.0,99.19,2.0,monthly,crypto,Yes
+1459,,,UK,17.0,58.24,5.0,,,No
+1460,62,M,Canada,35.0,74.08,4.0,,PayPal,Yes
+1461,55,M,india,3.0,4644.0,3.0,Monthly,,No
+1462,33,,USA,50.0,138.71,2.0,,,Yes
+1463,38,,Canada,16.0,72.76,3.0,Yearly,PayPal,Yes
+1464,47,Male,USA,47.0,116.28,0.0,,Bank Transfer,Yes
+1465,30,Male,USA,40.0,36.81,5.0,Monthly,crypto,Yes
+1466,40,F,,9.0,51.21,1.0,Monthly,,Yes
+1467,28,Female,india,35.0,109.25,4.0,,,Yes
+1468,36,,Usa,59.0,91.72,0.0,,,No
+1469,51,Female,india,42.0,103.79,1.0,,Bank Transfer,No
+1470,19,M,Australia,2.0,109.44,2.0,,,Yes
+1471,40,,Canada,14.0,117.07,,Monthly,Bank Transfer,Yes
+1472,46,M,USA,39.0,33.78,,monthly,,Yes
+1473,39,Female,UK,31.0,76.02,3.0,monthly,Credit Card,No
+1474,25,Male,Usa,54.0,86.29,3.0,,Credit Card,No
+1475,,F,USA,30.0,65.25,1.0,,crypto,Yes
+1476,40,,,8.0,3633.0,1.0,monthly,,Yes
+1477,51,Female,USA,11.0,26.93,1.0,,,Yes
+1478,48,F,UK,49.0,61.21,2.0,,Bank Transfer,Yes
+1479,67,,UK,8.0,80.46,0.0,,PayPal,Yes
+1480,22,F,Canada,44.0,54.25,0.0,monthly,Bank Transfer,Yes
+1481,18,Male,,43.0,113.77,2.0,,,Yes
+1482,53,Female,UK,18.0,75.21,3.0,Monthly,PayPal,Yes
+1483,40,Male,Canada,26.0,108.35,,Yearly,,Yes
+1484,38,M,india,21.0,74.94,1.0,Monthly,crypto,Yes
+1485,21,Female,,47.0,85.98,2.0,Monthly,crypto,No
+1486,36,M,,12.0,7.24,2.0,,,Yes
+1487,31,,india,35.0,79.09,1.0,Monthly,Credit Card,Yes
+1488,58,F,Australia,13.0,3382.0,2.0,,Bank Transfer,Yes
+1489,28,Male,india,54.0,70.4,2.0,Yearly,Credit Card,No
+1490,62,,Usa,45.0,57.74,3.0,,Bank Transfer,No
+1491,38,Female,india,28.0,67.46,2.0,,PayPal,No
+1492,60,Female,Usa,35.0,110.06,2.0,Monthly,PayPal,No
+1493,27,Male,,46.0,95.52,3.0,monthly,PayPal,Yes
+1494,31,,india,10.0,99.77,3.0,Monthly,Bank Transfer,Yes
+1495,43,,,38.0,71.73,2.0,,crypto,Yes
+1496,34,F,,40.0,57.11,2.0,Yearly,PayPal,Yes
+1497,24,F,,32.0,84.07,1.0,,crypto,Yes
+1498,24,,Canada,52.0,108.67,4.0,Monthly,,Yes
+1499,49,Male,UK,11.0,137.57,3.0,,,Yes
+1500,21,M,,40.0,76.9,2.0,Monthly,,Yes
+1501,43,Male,Usa,40.0,30.7,5.0,,PayPal,No
+1502,58,Female,Australia,17.0,60.14,1.0,monthly,Bank Transfer,Yes
+1503,27,Male,Usa,59.0,62.07,1.0,,,Yes
+1504,25,Female,Canada,40.0,113.69,3.0,Yearly,,Yes
+1505,48,F,Canada,41.0,95.53,4.0,,Bank Transfer,Yes
+1506,50,,,,111.07,6.0,,crypto,No
+1507,63,Male,UK,13.0,56.43,3.0,Yearly,Credit Card,Yes
+1508,62,Male,UK,43.0,54.84,4.0,Monthly,Credit Card,Yes
+1509,21,,Canada,35.0,92.08,3.0,Yearly,crypto,No
+1510,29,M,Canada,11.0,104.7,1.0,,Credit Card,No
+1511,35,M,Canada,26.0,77.58,0.0,Monthly,,Yes
+1512,61,,Canada,51.0,55.33,4.0,,Bank Transfer,Yes
+1513,59,,Usa,8.0,119.51,2.0,monthly,PayPal,Yes
+1514,60,Male,Usa,39.0,96.87,4.0,monthly,Bank Transfer,Yes
+1515,,M,Canada,21.0,92.52,1.0,Monthly,Credit Card,No
+1516,19,,USA,55.0,65.9,1.0,,crypto,Yes
+1517,20,,Australia,44.0,87.98,1.0,,,Yes
+1518,26,,Usa,54.0,102.33,1.0,monthly,Credit Card,Yes
+1519,46,F,Usa,7.0,74.56,2.0,Monthly,Bank Transfer,No
+1520,52,Male,Australia,35.0,83.02,2.0,,Bank Transfer,Yes
+1521,37,Female,USA,53.0,97.63,2.0,Yearly,Bank Transfer,No
+1522,43,M,UK,45.0,94.61,2.0,Yearly,PayPal,Yes
+1523,62,,USA,,99.73,4.0,Monthly,Bank Transfer,No
+1524,43,,Usa,51.0,53.04,5.0,monthly,PayPal,Yes
+1525,32,F,Usa,50.0,40.09,,,,Yes
+1526,58,M,Canada,48.0,106.61,1.0,Monthly,Bank Transfer,No
+1527,21,Male,Australia,58.0,67.38,4.0,,PayPal,No
+1528,53,Female,Usa,34.0,60.41,3.0,,,Yes
+1529,69,,Australia,23.0,116.4,3.0,,PayPal,Yes
+1530,23,M,Canada,37.0,54.01,1.0,monthly,crypto,No
+1531,,M,Australia,3.0,99.37,1.0,Yearly,,Yes
+1532,21,Male,Canada,28.0,113.21,3.0,,crypto,Yes
+1533,47,F,Australia,37.0,52.78,2.0,,,No
+1534,65,,Usa,59.0,101.16,1.0,,,No
+1535,33,F,UK,59.0,57.47,2.0,,crypto,No
+1536,51,Male,UK,9.0,103.26,3.0,Monthly,PayPal,Yes
+1537,38,,india,37.0,38.14,0.0,monthly,crypto,No
+1538,18,,india,25.0,43.83,1.0,,Credit Card,Yes
+1539,23,M,USA,1.0,74.57,0.0,,,No
+1540,56,F,india,57.0,105.17,1.0,monthly,crypto,Yes
+1541,23,Female,UK,,61.48,6.0,,PayPal,Yes
+1542,20,F,,26.0,93.63,2.0,,,No
+1543,69,F,india,,63.96,0.0,monthly,crypto,No
+1544,,F,Usa,14.0,81.62,3.0,,Bank Transfer,No
+1545,22,,USA,27.0,167.7,1.0,,,No
+1546,65,,,,85.61,2.0,monthly,crypto,No
+1547,39,M,UK,51.0,86.9,1.0,,Bank Transfer,Yes
+1548,31,,USA,56.0,80.81,,,Credit Card,Yes
+1549,50,M,Canada,49.0,83.06,,Monthly,,Yes
+1550,28,,Australia,5.0,117.49,2.0,Yearly,,Yes
+1551,50,Female,india,50.0,34.55,2.0,,PayPal,No
+1552,19,,Usa,30.0,96.23,3.0,Monthly,PayPal,No
+1553,36,,,54.0,75.4,5.0,monthly,PayPal,No
+1554,,F,Australia,10.0,73.09,3.0,,,No
+1555,29,,,7.0,52.27,1.0,,crypto,No
+1556,42,,Usa,35.0,52.34,3.0,Yearly,Bank Transfer,Yes
+1557,46,Male,Australia,47.0,49.88,2.0,monthly,Bank Transfer,Yes
+1558,,Male,india,19.0,124.96,1.0,Monthly,Credit Card,Yes
+1559,20,,india,6.0,117.43,2.0,monthly,crypto,Yes
+1560,65,M,,6.0,46.32,3.0,Yearly,Credit Card,No
+1561,27,M,USA,53.0,52.47,3.0,Yearly,,No
+1562,39,Female,india,36.0,111.42,1.0,monthly,Credit Card,Yes
+1563,21,M,,7.0,115.09,1.0,Monthly,,No
+1564,18,F,india,,113.73,1.0,,,Yes
+1565,unknown,,,38.0,69.98,0.0,monthly,,No
+1566,67,,USA,27.0,54.07,3.0,monthly,,Yes
+1567,46,F,Usa,59.0,75.77,1.0,monthly,crypto,Yes
+1568,45,Female,UK,17.0,138.96,2.0,,Credit Card,No
+1569,40,F,USA,47.0,96.19,1.0,Monthly,PayPal,No
+1570,50,,UK,57.0,72.61,1.0,,,Yes
+1571,50,Male,UK,11.0,100.93,2.0,monthly,Credit Card,No
+1572,35,Male,,38.0,75.98,2.0,Monthly,PayPal,No
+1573,55,,Usa,1.0,7.78,2.0,monthly,PayPal,Yes
+1574,63,Male,Canada,42.0,38.72,5.0,,PayPal,Yes
+1575,38,,india,2.0,69.81,2.0,Monthly,PayPal,Yes
+1576,57,M,Australia,36.0,45.39,3.0,Yearly,,No
+1577,30,Female,india,4.0,83.41,2.0,Monthly,,No
+1578,unknown,Female,UK,4.0,59.57,1.0,,,Yes
+1579,18,Female,Canada,38.0,52.95,1.0,,crypto,Yes
+1580,22,Male,Usa,49.0,96.28,3.0,,Credit Card,Yes
+1581,22,Female,UK,1.0,48.83,1.0,,,No
+1582,59,M,UK,23.0,105.72,0.0,Yearly,crypto,Yes
+1583,41,Male,Australia,25.0,54.0,3.0,Yearly,crypto,Yes
+1584,63,Female,Canada,42.0,37.7,1.0,,crypto,No
+1585,26,M,india,6.0,56.58,2.0,,,Yes
+1586,22,F,,42.0,70.27,2.0,,,Yes
+1587,26,Female,india,29.0,104.09,3.0,Monthly,Credit Card,No
+1588,65,F,india,23.0,127.85,3.0,,PayPal,Yes
+1589,unknown,,Australia,30.0,66.0,0.0,Monthly,Credit Card,No
+1590,60,F,,32.0,71.57,1.0,Yearly,,No
+1591,53,,Australia,34.0,1079.0,2.0,,Credit Card,No
+1592,64,,india,54.0,54.0,4.0,monthly,,Yes
+1593,50,M,USA,19.0,43.23,3.0,Yearly,,Yes
+1594,51,Female,Canada,51.0,147.09,0.0,,,Yes
+1595,64,M,Canada,13.0,121.53,5.0,monthly,Bank Transfer,No
+1596,30,Male,Australia,5.0,102.47,6.0,,Bank Transfer,Yes
+1597,46,Male,USA,53.0,113.26,3.0,Yearly,Bank Transfer,Yes
+1598,26,Female,india,56.0,73.25,2.0,Yearly,crypto,No
+1599,58,Male,Canada,7.0,128.76,1.0,,,No
+1600,19,,,41.0,77.3,0.0,,crypto,No
+1601,47,M,UK,57.0,110.7,3.0,Monthly,PayPal,No
+1602,39,,UK,6.0,105.45,1.0,Yearly,PayPal,Yes
+1603,66,,UK,45.0,12.59,3.0,monthly,Bank Transfer,Yes
+1604,46,Female,india,59.0,77.99,0.0,Yearly,crypto,No
+1605,31,,india,40.0,62.86,0.0,,,Yes
+1606,21,F,Canada,59.0,66.42,2.0,,Credit Card,No
+1607,,Female,Australia,49.0,76.1,2.0,,PayPal,No
+1608,32,F,Usa,48.0,121.9,3.0,monthly,,Yes
+1609,54,Female,Usa,19.0,92.44,2.0,monthly,Bank Transfer,No
+1610,26,,Australia,28.0,47.02,2.0,,,No
+1611,43,Male,UK,36.0,69.45,3.0,Monthly,,No
+1612,30,M,Australia,11.0,54.57,1.0,Yearly,PayPal,No
+1613,19,M,,30.0,60.44,5.0,Monthly,PayPal,No
+1614,68,,Australia,26.0,96.97,2.0,Yearly,Credit Card,Yes
+1615,20,Male,india,38.0,78.18,2.0,,,Yes
+1616,49,Male,,28.0,27.05,2.0,Yearly,Bank Transfer,Yes
+1617,32,,Canada,15.0,71.18,2.0,Yearly,,Yes
+1618,37,Female,india,58.0,51.52,1.0,monthly,,No
+1619,39,Female,USA,6.0,123.04,5.0,Yearly,Credit Card,Yes
+1620,42,Female,,56.0,82.04,3.0,,,Yes
+1621,25,Male,,11.0,3352.0,8.0,,,No
+1622,44,,,35.0,27.25,4.0,monthly,PayPal,Yes
+1623,47,,,48.0,99.15,1.0,Monthly,PayPal,Yes
+1624,,,USA,14.0,87.19,1.0,Monthly,Credit Card,Yes
+1625,60,Female,UK,58.0,94.52,4.0,monthly,,No
+1626,46,,india,19.0,133.06,1.0,Monthly,,Yes
+1627,36,Female,,23.0,65.24,4.0,,,No
+1628,68,F,Usa,21.0,98.77,1.0,Yearly,,Yes
+1629,28,M,USA,18.0,106.56,2.0,monthly,,Yes
+1630,28,F,Canada,21.0,64.42,2.0,Yearly,,No
+1631,39,Female,,19.0,84.6,3.0,Yearly,Credit Card,No
+1632,39,,Usa,22.0,40.38,1.0,Monthly,,Yes
+1633,67,M,UK,48.0,147.09,0.0,,Bank Transfer,No
+1634,60,F,Canada,15.0,92.45,3.0,monthly,PayPal,No
+1635,30,F,UK,2.0,93.9,3.0,Monthly,crypto,Yes
+1636,25,,Canada,44.0,66.03,0.0,,crypto,No
+1637,57,F,india,26.0,75.47,0.0,Monthly,crypto,Yes
+1638,37,F,Australia,52.0,104.3,4.0,monthly,,Yes
+1639,40,,Australia,24.0,47.66,1.0,,,No
+1640,68,,USA,20.0,100.65,4.0,monthly,Bank Transfer,No
+1641,56,Female,,53.0,49.36,4.0,monthly,crypto,Yes
+1642,28,F,Canada,34.0,74.7,1.0,Monthly,,Yes
+1643,69,Female,USA,15.0,33.54,2.0,,crypto,No
+1644,,Male,Canada,8.0,28.93,2.0,Monthly,,Yes
+1645,47,,Canada,56.0,66.12,0.0,Monthly,,Yes
+1646,56,,Australia,28.0,121.08,0.0,,Credit Card,No
+1647,54,,Australia,26.0,45.84,1.0,,Bank Transfer,No
+1648,55,F,Australia,24.0,22.46,2.0,Monthly,,Yes
+1649,55,,Australia,10.0,75.5,1.0,,,Yes
+1650,52,Female,UK,44.0,77.14,0.0,monthly,Credit Card,Yes
+1651,48,M,Usa,31.0,26.71,2.0,Yearly,PayPal,Yes
+1652,51,F,Australia,9.0,63.8,,Yearly,Bank Transfer,Yes
+1653,,M,Usa,55.0,47.24,4.0,Monthly,Credit Card,Yes
+1654,35,Male,Australia,13.0,78.43,3.0,Yearly,PayPal,Yes
+1655,35,Male,india,16.0,131.12,2.0,,Credit Card,Yes
+1656,57,M,Canada,13.0,131.87,5.0,,PayPal,Yes
+1657,55,M,Australia,38.0,82.23,2.0,Monthly,Bank Transfer,No
+1658,20,M,,45.0,105.41,3.0,Monthly,,Yes
+1659,23,Male,Usa,14.0,74.11,3.0,monthly,,Yes
+1660,48,F,Australia,,64.06,2.0,monthly,Credit Card,Yes
+1661,37,Female,Australia,39.0,94.52,4.0,Monthly,Bank Transfer,Yes
+1662,69,F,Usa,13.0,56.98,1.0,Monthly,PayPal,No
+1663,41,,Usa,58.0,53.71,,Monthly,,Yes
+1664,43,Female,USA,47.0,77.91,2.0,Yearly,PayPal,Yes
+1665,19,M,Australia,54.0,106.7,4.0,monthly,Bank Transfer,Yes
+1666,47,F,Australia,18.0,62.02,4.0,,,Yes
+1667,40,Female,Canada,52.0,46.7,5.0,monthly,PayPal,Yes
+1668,33,,USA,,67.15,2.0,,Credit Card,Yes
+1669,44,M,Canada,12.0,18.59,2.0,Yearly,Bank Transfer,Yes
+1670,28,Female,USA,39.0,89.75,2.0,monthly,,No
+1671,40,M,Usa,56.0,66.61,1.0,,Bank Transfer,Yes
+1672,54,M,UK,45.0,82.94,2.0,,,Yes
+1673,,F,Canada,21.0,118.88,4.0,Monthly,,Yes
+1674,36,M,Australia,56.0,106.07,4.0,Monthly,Bank Transfer,Yes
+1675,30,M,Usa,52.0,66.33,2.0,monthly,,No
+1676,63,,Australia,19.0,47.35,0.0,,Credit Card,Yes
+1677,45,Male,Australia,1.0,41.62,0.0,,Credit Card,No
+1678,65,F,Australia,40.0,89.86,2.0,Monthly,PayPal,No
+1679,44,,,9.0,80.83,2.0,Monthly,,Yes
+1680,31,F,Usa,45.0,82.56,1.0,Monthly,crypto,No
+1681,59,M,UK,,-9.73,6.0,monthly,,Yes
+1682,32,,Australia,35.0,99.06,3.0,,PayPal,Yes
+1683,40,M,Canada,4.0,46.48,2.0,Monthly,crypto,No
+1684,42,F,USA,,64.13,2.0,Yearly,Credit Card,No
+1685,50,M,Usa,52.0,48.3,2.0,Yearly,crypto,No
+1686,69,,india,15.0,43.73,0.0,,,No
+1687,22,F,Usa,6.0,72.85,5.0,,Credit Card,No
+1688,39,F,Canada,40.0,101.97,1.0,,crypto,No
+1689,66,Male,india,8.0,88.66,2.0,,Bank Transfer,No
+1690,62,,USA,53.0,49.16,2.0,,Credit Card,Yes
+1691,65,M,india,2.0,77.09,1.0,monthly,PayPal,Yes
+1692,47,,Canada,11.0,51.44,,Monthly,Credit Card,Yes
+1693,45,F,,58.0,82.32,1.0,,Bank Transfer,No
+1694,38,Female,USA,56.0,67.08,0.0,Monthly,PayPal,No
+1695,29,F,,1.0,75.62,1.0,,PayPal,No
+1696,64,Female,Usa,1.0,94.58,3.0,,PayPal,Yes
+1697,62,F,USA,16.0,33.58,2.0,,crypto,No
+1698,,,india,13.0,77.95,2.0,Yearly,,Yes
+1699,64,M,india,8.0,54.46,3.0,,,No
+1700,52,Female,Canada,6.0,64.0,3.0,,,No
+1701,23,,Usa,6.0,86.77,2.0,,,No
+1702,31,Female,india,14.0,75.96,0.0,Yearly,PayPal,Yes
+1703,36,F,Australia,43.0,58.8,,monthly,Bank Transfer,Yes
+1704,52,,USA,17.0,43.28,2.0,,PayPal,No
+1705,41,M,,17.0,100.27,5.0,,,Yes
+1706,54,F,,48.0,58.83,1.0,,,Yes
+1707,33,Male,UK,4.0,51.74,1.0,monthly,,No
+1708,62,Male,UK,2.0,34.57,3.0,,crypto,Yes
+1709,25,M,Canada,7.0,89.65,5.0,monthly,,Yes
+1710,35,F,,50.0,58.01,2.0,,,No
+1711,22,Male,Usa,30.0,134.54,3.0,Yearly,crypto,Yes
+1712,40,,UK,6.0,99.64,2.0,,Bank Transfer,No
+1713,37,,,6.0,65.8,,monthly,,Yes
+1714,20,Female,india,42.0,77.17,4.0,,PayPal,No
+1715,37,F,Usa,22.0,92.59,3.0,Yearly,Credit Card,No
+1716,29,Female,USA,,9.87,1.0,monthly,,No
+1717,27,Male,,19.0,39.0,4.0,Monthly,crypto,No
+1718,unknown,M,UK,45.0,27.54,4.0,,,Yes
+1719,42,,india,14.0,139.43,1.0,monthly,,Yes
+1720,27,Male,UK,35.0,99.09,2.0,Yearly,crypto,Yes
+1721,19,,Australia,12.0,64.68,0.0,,,No
+1722,35,F,Usa,54.0,68.36,0.0,,PayPal,Yes
+1723,52,Male,Usa,53.0,38.33,4.0,,Credit Card,Yes
+1724,59,,UK,12.0,108.75,0.0,Monthly,PayPal,Yes
+1725,43,M,Canada,59.0,21.01,3.0,monthly,Credit Card,Yes
+1726,63,,Australia,40.0,74.49,1.0,,PayPal,Yes
+1727,34,F,Usa,56.0,54.96,1.0,,crypto,No
+1728,43,,USA,16.0,36.74,1.0,Yearly,,Yes
+1729,24,,Canada,45.0,105.72,5.0,,,Yes
+1730,30,F,india,42.0,59.93,3.0,Monthly,Bank Transfer,Yes
+1731,19,,Australia,22.0,51.27,0.0,,Credit Card,No
+1732,35,,Canada,5.0,89.41,2.0,monthly,PayPal,Yes
+1733,46,M,Australia,36.0,116.32,3.0,Monthly,Bank Transfer,No
+1734,36,M,Canada,38.0,102.84,4.0,,,Yes
+1735,28,F,USA,37.0,45.62,0.0,Monthly,crypto,Yes
+1736,unknown,,india,29.0,87.38,0.0,monthly,,No
+1737,59,,UK,30.0,-8.59,3.0,Yearly,,No
+1738,48,Male,USA,53.0,69.0,3.0,Yearly,Credit Card,Yes
+1739,33,,Canada,46.0,124.93,0.0,,,No
+1740,,,USA,43.0,60.25,0.0,,Bank Transfer,No
+1741,24,M,Usa,26.0,68.23,1.0,monthly,PayPal,No
+1742,34,,Canada,,37.84,,,Credit Card,Yes
+1743,36,,Usa,26.0,78.93,1.0,Monthly,,Yes
+1744,28,F,Usa,45.0,100.51,3.0,,PayPal,Yes
+1745,33,Female,Australia,,78.34,2.0,monthly,PayPal,Yes
+1746,58,,UK,16.0,71.41,3.0,,PayPal,Yes
+1747,49,F,USA,57.0,16.55,1.0,,,Yes
+1748,19,Male,UK,1.0,115.84,3.0,monthly,PayPal,Yes
+1749,32,,india,12.0,107.62,1.0,Monthly,Bank Transfer,No
+1750,56,Male,Usa,24.0,101.5,1.0,Yearly,Credit Card,No
+1751,51,M,USA,58.0,16.8,1.0,Yearly,,No
+1752,53,Female,UK,45.0,86.87,,,Credit Card,No
+1753,49,F,UK,45.0,24.26,1.0,Yearly,Credit Card,No
+1754,21,,USA,21.0,116.38,0.0,Monthly,PayPal,Yes
+1755,23,M,india,12.0,132.04,2.0,monthly,crypto,No
+1756,24,Female,,46.0,,3.0,,,Yes
+1757,50,Male,Australia,53.0,88.61,,Monthly,,Yes
+1758,40,,Canada,32.0,98.25,0.0,Yearly,Credit Card,Yes
+1759,42,,Usa,31.0,162.98,2.0,Yearly,crypto,No
+1760,42,Male,india,8.0,71.51,0.0,,Credit Card,No
+1761,28,,UK,39.0,61.43,5.0,,,No
+1762,18,M,india,58.0,20.38,4.0,Monthly,crypto,Yes
+1763,52,,UK,5.0,72.28,5.0,monthly,,No
+1764,55,Male,Canada,,44.54,0.0,,PayPal,No
+1765,,Female,Canada,28.0,93.48,3.0,,PayPal,Yes
+1766,69,M,USA,,156.64,1.0,Monthly,Bank Transfer,Yes
+1767,36,M,Usa,48.0,60.73,0.0,,,Yes
+1768,29,Female,,15.0,33.53,2.0,,,Yes
+1769,60,,UK,19.0,87.74,2.0,monthly,PayPal,No
+1770,59,F,,28.0,127.7,2.0,,Bank Transfer,No
+1771,42,,Canada,12.0,97.22,3.0,,crypto,Yes
+1772,63,F,,53.0,68.77,3.0,Yearly,Bank Transfer,No
+1773,28,Male,Canada,32.0,75.33,3.0,,Bank Transfer,No
+1774,40,M,,45.0,,2.0,monthly,,Yes
+1775,36,,india,33.0,50.64,1.0,Monthly,Credit Card,No
+1776,,Female,Usa,28.0,45.4,0.0,monthly,PayPal,Yes
+1777,42,,india,51.0,2953.0,0.0,,crypto,Yes
+1778,64,Female,,53.0,139.78,0.0,,,No
+1779,40,Male,Canada,25.0,56.62,3.0,,crypto,Yes
+1780,27,Female,Canada,57.0,3405.0,2.0,,,No
+1781,51,Male,UK,4.0,134.22,2.0,,,No
+1782,18,F,USA,7.0,109.88,3.0,,,No
+1783,60,,UK,27.0,87.65,1.0,Monthly,crypto,No
+1784,45,,USA,29.0,,2.0,,crypto,Yes
+1785,65,F,Australia,46.0,77.73,3.0,Yearly,Bank Transfer,No
+1786,28,Female,india,2.0,112.85,3.0,,Bank Transfer,Yes
+1787,,Male,,23.0,93.01,1.0,,crypto,No
+1788,61,M,Usa,8.0,75.73,2.0,monthly,crypto,Yes
+1789,59,,Usa,33.0,122.22,1.0,Monthly,crypto,Yes
+1790,47,M,Usa,27.0,105.23,0.0,Yearly,crypto,No
+1791,46,M,USA,33.0,69.33,2.0,Yearly,Bank Transfer,Yes
+1792,56,Male,Usa,53.0,74.68,3.0,Yearly,crypto,Yes
+1793,,Female,Canada,4.0,39.33,1.0,Yearly,,No
+1794,51,Female,UK,29.0,78.29,1.0,,PayPal,Yes
+1795,unknown,M,UK,31.0,102.01,2.0,,PayPal,No
+1796,66,,Usa,9.0,94.97,2.0,,Credit Card,Yes
+1797,,Female,UK,7.0,96.9,1.0,Monthly,Bank Transfer,Yes
+1798,36,Male,,10.0,65.67,0.0,,Credit Card,No
+1799,64,,UK,38.0,42.35,2.0,Monthly,Bank Transfer,No
+1800,37,M,USA,47.0,58.17,0.0,,Bank Transfer,Yes
+1801,40,M,,16.0,80.28,4.0,,PayPal,No
+1802,32,,Usa,7.0,143.11,0.0,Yearly,,No
+1803,60,Male,Canada,,97.89,2.0,Yearly,,Yes
+1804,29,Male,Canada,25.0,30.87,4.0,Yearly,Bank Transfer,No
+1805,30,Female,Usa,43.0,83.59,1.0,monthly,PayPal,No
+1806,45,Male,india,51.0,114.43,3.0,Yearly,,No
+1807,51,Male,Usa,48.0,58.14,3.0,,,No
+1808,47,Male,,45.0,70.19,2.0,Yearly,PayPal,Yes
+1809,62,Female,UK,50.0,73.6,2.0,Yearly,PayPal,No
+1810,64,M,india,57.0,109.71,4.0,Monthly,Bank Transfer,No
+1811,18,F,india,51.0,92.74,2.0,,Credit Card,No
+1812,36,M,india,18.0,61.86,3.0,monthly,crypto,No
+1813,66,Male,Canada,37.0,104.77,1.0,Monthly,,No
+1814,52,F,Usa,40.0,13.7,2.0,,Credit Card,Yes
+1815,65,Female,,35.0,113.12,1.0,,,No
+1816,61,Male,Usa,55.0,62.55,3.0,monthly,,Yes
+1817,60,M,india,18.0,44.78,1.0,Yearly,Credit Card,Yes
+1818,56,F,Australia,23.0,48.1,0.0,,PayPal,No
+1819,64,,Usa,40.0,58.57,1.0,Monthly,Credit Card,No
+1820,65,Female,Usa,20.0,48.73,2.0,Monthly,Credit Card,Yes
+1821,57,F,Usa,48.0,116.79,0.0,Yearly,PayPal,No
+1822,66,F,india,23.0,97.68,0.0,Yearly,Bank Transfer,No
+1823,45,Male,,41.0,72.16,1.0,Monthly,Bank Transfer,Yes
+1824,58,,,6.0,73.95,,,Credit Card,Yes
+1825,28,F,india,14.0,89.6,0.0,monthly,,No
+1826,20,M,Canada,55.0,59.85,0.0,Monthly,Bank Transfer,No
+1827,unknown,,Australia,52.0,83.39,3.0,,Bank Transfer,Yes
+1828,62,,,49.0,86.87,5.0,monthly,Credit Card,No
+1829,18,,Canada,42.0,112.23,1.0,Monthly,Bank Transfer,No
+1830,61,F,Usa,40.0,55.54,3.0,Yearly,,Yes
+1831,65,,india,43.0,48.01,0.0,,crypto,Yes
+1832,59,F,Usa,10.0,35.33,1.0,Monthly,Credit Card,No
+1833,26,M,Australia,31.0,82.82,0.0,Monthly,,Yes
+1834,57,F,USA,9.0,46.62,1.0,,Credit Card,No
+1835,69,,Usa,5.0,49.09,3.0,Yearly,PayPal,No
+1836,30,Male,Canada,4.0,99.48,0.0,monthly,PayPal,No
+1837,63,Male,Canada,9.0,69.08,1.0,monthly,Bank Transfer,Yes
+1838,54,Female,USA,42.0,80.01,2.0,monthly,PayPal,No
+1839,69,M,UK,7.0,114.52,,monthly,Bank Transfer,Yes
+1840,40,,Australia,39.0,81.02,4.0,Monthly,Bank Transfer,Yes
+1841,67,,,20.0,83.34,1.0,,,No
+1842,19,Female,USA,25.0,95.93,1.0,,crypto,Yes
+1843,52,,UK,18.0,128.67,1.0,,Credit Card,No
+1844,22,Female,Australia,19.0,104.64,4.0,Yearly,,Yes
+1845,31,Male,Usa,49.0,81.37,2.0,Yearly,Credit Card,Yes
+1846,66,Male,USA,25.0,71.99,1.0,,PayPal,Yes
+1847,33,M,Usa,52.0,93.89,5.0,Monthly,crypto,No
+1848,23,M,USA,24.0,68.17,2.0,,PayPal,Yes
+1849,51,F,Canada,28.0,75.44,2.0,,Bank Transfer,Yes
+1850,43,,UK,48.0,115.78,5.0,,crypto,Yes
+1851,18,,,29.0,42.26,2.0,Monthly,PayPal,Yes
+1852,,M,USA,54.0,103.83,2.0,monthly,Credit Card,Yes
+1853,40,M,india,41.0,67.22,4.0,Monthly,,No
+1854,34,,Australia,35.0,57.04,2.0,,,Yes
+1855,41,Male,UK,52.0,8.08,0.0,Yearly,,Yes
+1856,67,,india,54.0,82.18,2.0,Yearly,crypto,No
+1857,64,F,Usa,13.0,85.62,2.0,Yearly,,No
+1858,49,,india,30.0,77.34,0.0,,Credit Card,Yes
+1859,32,Male,Usa,44.0,83.93,1.0,monthly,Bank Transfer,Yes
+1860,35,Male,USA,54.0,64.68,0.0,Monthly,PayPal,No
+1861,42,Male,india,38.0,78.77,0.0,Monthly,Credit Card,Yes
+1862,44,Female,Canada,54.0,1.42,3.0,,crypto,Yes
+1863,39,,UK,35.0,38.09,3.0,monthly,,Yes
+1864,33,F,UK,58.0,116.59,2.0,,,Yes
+1865,33,M,Australia,51.0,103.88,0.0,Yearly,Credit Card,Yes
+1866,57,M,india,9.0,,0.0,,,Yes
+1867,53,,india,22.0,67.74,2.0,Monthly,,No
+1868,55,Female,Usa,59.0,84.48,2.0,,Credit Card,No
+1869,21,,UK,18.0,71.35,0.0,Monthly,crypto,No
+1870,49,Male,Canada,33.0,62.42,0.0,Monthly,Bank Transfer,No
+1871,23,Male,Usa,16.0,89.87,2.0,,Credit Card,No
+1872,66,Male,Canada,,77.19,6.0,monthly,,Yes
+1873,unknown,F,Australia,58.0,55.37,0.0,,Credit Card,Yes
+1874,24,F,Australia,56.0,99.42,3.0,monthly,Credit Card,No
+1875,67,Female,Canada,43.0,2125.0,2.0,Yearly,crypto,No
+1876,64,Female,Usa,12.0,39.83,1.0,,crypto,No
+1877,52,M,,30.0,84.79,5.0,,PayPal,Yes
+1878,47,Female,UK,48.0,2437.0,4.0,,,Yes
+1879,51,F,USA,35.0,44.03,1.0,Yearly,Bank Transfer,Yes
+1880,38,Female,Usa,29.0,131.29,1.0,,,Yes
+1881,57,,Usa,26.0,74.94,6.0,Yearly,PayPal,No
+1882,,Male,Australia,44.0,54.43,2.0,monthly,crypto,No
+1883,36,Male,Canada,2.0,36.12,1.0,Yearly,Bank Transfer,Yes
+1884,unknown,,Usa,12.0,99.65,1.0,,PayPal,No
+1885,23,M,USA,19.0,1567.0,2.0,monthly,,No
+1886,43,,Australia,13.0,68.52,1.0,Monthly,,Yes
+1887,22,Male,USA,2.0,76.29,1.0,Yearly,,Yes
+1888,,,Usa,38.0,119.44,2.0,monthly,Bank Transfer,No
+1889,51,F,USA,33.0,63.03,5.0,Yearly,,No
+1890,18,Male,india,14.0,96.18,4.0,,,Yes
+1891,50,F,india,10.0,86.51,5.0,Yearly,,Yes
+1892,unknown,,Australia,28.0,75.5,2.0,monthly,,No
+1893,24,Male,india,13.0,37.01,2.0,Yearly,Bank Transfer,Yes
+1894,43,Female,india,33.0,93.52,1.0,monthly,Credit Card,No
+1895,58,,Canada,45.0,101.23,1.0,Yearly,,No
+1896,50,,Usa,17.0,96.97,1.0,,,No
+1897,41,,UK,9.0,66.95,1.0,,PayPal,No
+1898,67,M,UK,48.0,129.47,1.0,Yearly,PayPal,No
+1899,46,M,USA,24.0,98.79,0.0,Yearly,Credit Card,Yes
+1900,34,,Australia,18.0,52.17,1.0,,Credit Card,No
+1901,31,Male,,49.0,112.08,0.0,monthly,PayPal,Yes
+1902,unknown,Male,india,18.0,160.34,1.0,,,No
+1903,30,F,UK,15.0,81.94,1.0,Monthly,Credit Card,Yes
+1904,36,F,UK,,75.71,3.0,monthly,,No
+1905,19,F,Usa,33.0,103.61,4.0,Monthly,PayPal,Yes
+1906,60,Male,india,49.0,68.21,6.0,Monthly,,Yes
+1907,66,,UK,25.0,110.05,2.0,monthly,Bank Transfer,Yes
+1908,46,M,Canada,39.0,119.76,,Yearly,,Yes
+1909,43,,,14.0,37.8,2.0,monthly,PayPal,Yes
+1910,20,F,Canada,52.0,9.05,4.0,monthly,PayPal,Yes
+1911,31,,india,24.0,101.35,3.0,,,Yes
+1912,57,Male,UK,2.0,4382.0,1.0,Monthly,Bank Transfer,No
+1913,65,Female,Canada,2.0,76.93,1.0,,PayPal,Yes
+1914,20,Female,USA,55.0,106.63,,,Bank Transfer,Yes
+1915,23,Male,Australia,13.0,102.83,1.0,Monthly,PayPal,Yes
+1916,,F,UK,52.0,91.37,3.0,monthly,crypto,No
+1917,44,,Usa,,116.91,0.0,,PayPal,Yes
+1918,,,Australia,7.0,70.13,1.0,Yearly,crypto,Yes
+1919,40,F,UK,53.0,90.78,2.0,,,Yes
+1920,34,M,Usa,26.0,77.21,4.0,,PayPal,No
+1921,31,,,10.0,72.81,2.0,Monthly,PayPal,Yes
+1922,58,,UK,10.0,61.75,2.0,,Credit Card,No
+1923,,M,USA,42.0,90.89,1.0,monthly,crypto,No
+1924,39,Male,Canada,57.0,82.31,1.0,Yearly,Credit Card,No
+1925,68,Male,Canada,11.0,83.72,3.0,Yearly,PayPal,Yes
+1926,28,,india,53.0,104.51,2.0,,PayPal,No
+1927,31,F,USA,48.0,97.84,1.0,,,Yes
+1928,38,F,USA,44.0,96.52,3.0,Monthly,crypto,Yes
+1929,61,M,UK,22.0,74.16,2.0,,Bank Transfer,No
+1930,34,F,Usa,51.0,76.82,0.0,monthly,Bank Transfer,No
+1931,25,,UK,21.0,131.14,2.0,Monthly,,No
+1932,41,,USA,33.0,57.19,0.0,,Credit Card,Yes
+1933,49,Female,india,12.0,76.2,1.0,Monthly,Bank Transfer,No
+1934,63,F,USA,57.0,50.45,0.0,,PayPal,No
+1935,69,,Australia,40.0,85.96,1.0,,PayPal,No
+1936,24,,USA,40.0,73.25,3.0,,crypto,Yes
+1937,41,,Australia,8.0,54.73,0.0,,Credit Card,No
+1938,61,F,india,53.0,86.52,5.0,,Bank Transfer,No
+1939,36,F,Australia,18.0,70.2,3.0,monthly,,No
+1940,18,,UK,12.0,106.21,2.0,monthly,Credit Card,Yes
+1941,46,F,,3.0,79.09,3.0,Monthly,crypto,Yes
+1942,28,,USA,44.0,76.87,1.0,Yearly,,No
+1943,54,Female,Usa,7.0,,2.0,,Credit Card,No
+1944,57,F,Canada,9.0,108.86,3.0,Monthly,PayPal,No
+1945,67,,UK,15.0,72.89,3.0,,,No
+1946,32,Male,USA,48.0,68.52,4.0,,Credit Card,No
+1947,62,,USA,45.0,48.79,2.0,,PayPal,Yes
+1948,33,Male,UK,30.0,67.78,1.0,,crypto,No
+1949,,Female,india,44.0,124.14,3.0,,,Yes
+1950,,Male,USA,,73.82,1.0,,Bank Transfer,No
+1951,63,F,UK,34.0,102.81,5.0,Monthly,,No
+1952,50,,UK,7.0,110.53,3.0,Yearly,,Yes
+1953,22,,Canada,29.0,103.11,1.0,Monthly,crypto,Yes
+1954,29,Male,india,54.0,116.36,2.0,Yearly,crypto,No
+1955,52,Female,Canada,57.0,65.21,2.0,,Bank Transfer,Yes
+1956,58,,USA,45.0,55.78,2.0,,Credit Card,Yes
+1957,18,Female,USA,39.0,50.06,1.0,Monthly,crypto,Yes
+1958,44,,USA,24.0,108.73,1.0,,PayPal,Yes
+1959,55,,india,23.0,86.23,2.0,monthly,crypto,Yes
+1960,24,Male,UK,23.0,71.55,3.0,Yearly,Bank Transfer,Yes
+1961,41,Female,UK,49.0,82.95,4.0,Yearly,Credit Card,No
+1962,47,F,Usa,44.0,128.57,4.0,monthly,PayPal,Yes
+1963,38,M,Australia,56.0,75.36,3.0,Yearly,,No
+1964,37,,Usa,15.0,63.67,3.0,Yearly,,No
+1965,62,Male,Australia,18.0,107.94,1.0,monthly,,No
+1966,37,M,Australia,52.0,114.25,0.0,monthly,PayPal,No
+1967,49,Male,Usa,42.0,66.74,1.0,,Credit Card,No
+1968,27,Female,USA,10.0,50.84,1.0,Monthly,,No
+1969,26,M,UK,17.0,109.47,1.0,,Credit Card,Yes
+1970,48,,Australia,52.0,,0.0,,Credit Card,No
+1971,53,F,USA,50.0,138.03,0.0,Monthly,crypto,Yes
+1972,31,M,Canada,56.0,75.2,2.0,,,Yes
+1973,23,F,Australia,57.0,108.1,5.0,,Credit Card,Yes
+1974,37,Female,USA,38.0,87.31,1.0,Monthly,PayPal,No
+1975,50,Male,Usa,1.0,47.29,3.0,monthly,Credit Card,No
+1976,42,F,Canada,45.0,28.85,1.0,monthly,PayPal,No
+1977,38,,india,56.0,82.22,5.0,,PayPal,Yes
+1978,19,Male,Canada,19.0,70.39,1.0,Yearly,,Yes
+1979,53,Female,USA,19.0,80.74,3.0,monthly,PayPal,No
+1980,34,F,Usa,39.0,44.72,4.0,monthly,crypto,No
+1981,68,F,UK,24.0,69.94,4.0,,,Yes
+1982,41,,USA,11.0,68.11,,,crypto,No
+1983,41,Male,Canada,35.0,46.07,3.0,Monthly,crypto,No
+1984,66,F,Usa,45.0,28.49,0.0,monthly,,No
+1985,56,Male,Usa,22.0,80.97,4.0,,Bank Transfer,Yes
+1986,46,Female,india,18.0,87.02,2.0,monthly,crypto,Yes
+1987,55,,Canada,59.0,,2.0,,crypto,No
+1988,68,Female,Canada,35.0,104.08,4.0,Monthly,,No
+1989,31,M,USA,22.0,,1.0,,,Yes
+1990,55,Male,USA,55.0,76.04,1.0,,,Yes
+1991,29,Male,Canada,42.0,64.29,1.0,,Bank Transfer,No
+1992,55,M,Canada,12.0,125.67,3.0,,crypto,Yes
+1993,58,,USA,31.0,82.3,3.0,monthly,crypto,Yes
+1994,67,F,Canada,38.0,128.2,2.0,Monthly,Bank Transfer,No
+1995,20,Female,Canada,22.0,53.07,1.0,monthly,Bank Transfer,Yes
+1996,,M,,29.0,116.2,1.0,monthly,Bank Transfer,Yes
+1997,56,,UK,24.0,34.18,1.0,Yearly,Bank Transfer,No
+1998,22,Male,Australia,32.0,50.78,3.0,monthly,Credit Card,No
+1999,20,Male,Canada,4.0,101.1,1.0,,PayPal,Yes
+2000,52,,UK,31.0,65.68,,monthly,PayPal,No
+2001,63,Male,Canada,14.0,30.92,0.0,monthly,,Yes
+2002,23,Female,Australia,17.0,63.29,3.0,,,Yes
+2003,45,F,USA,43.0,60.2,2.0,monthly,crypto,No
+2004,20,F,Australia,,114.21,2.0,Yearly,,No
+2005,62,M,UK,35.0,154.97,2.0,,PayPal,No
+2006,24,,Australia,53.0,138.45,1.0,Monthly,Bank Transfer,Yes
+2007,28,,Canada,45.0,110.75,2.0,Monthly,,Yes
+2008,49,F,UK,20.0,45.39,1.0,monthly,,Yes
+2009,34,Female,USA,45.0,54.65,2.0,Yearly,PayPal,Yes
+2010,23,F,Australia,38.0,97.74,0.0,Yearly,,No
+2011,66,,india,29.0,,2.0,Yearly,PayPal,Yes
+2012,67,,USA,47.0,101.48,0.0,Monthly,crypto,No
+2013,54,M,Australia,30.0,63.53,,,crypto,Yes
+2014,65,Female,Australia,44.0,,0.0,,,Yes
+2015,52,F,india,34.0,93.16,3.0,monthly,crypto,Yes
+2016,45,M,Australia,53.0,91.41,2.0,,,Yes
+2017,43,,india,7.0,62.53,1.0,,,No
+2018,55,,UK,5.0,84.38,2.0,monthly,PayPal,Yes
+2019,26,,Australia,29.0,97.56,2.0,Monthly,Credit Card,Yes
+2020,20,,,,89.63,0.0,Yearly,,Yes
+2021,28,,Canada,27.0,75.06,1.0,Yearly,Credit Card,Yes
+2022,55,Female,USA,46.0,102.57,2.0,,Credit Card,No
+2023,18,,Usa,25.0,90.77,2.0,,Bank Transfer,No
+2024,19,Female,,18.0,84.24,5.0,Monthly,PayPal,No
+2025,53,Male,india,54.0,60.07,6.0,monthly,crypto,No
+2026,43,M,USA,38.0,69.82,2.0,monthly,crypto,Yes
+2027,33,,Australia,37.0,75.56,,,Bank Transfer,Yes
+2028,30,Female,UK,56.0,79.86,4.0,Monthly,PayPal,No
+2029,42,,Usa,11.0,91.12,2.0,,,Yes
+2030,55,Female,Canada,21.0,101.6,0.0,monthly,crypto,No
+2031,37,Female,USA,8.0,39.5,2.0,,crypto,Yes
+2032,65,F,Usa,9.0,86.01,1.0,Monthly,,No
+2033,37,Male,UK,45.0,70.42,1.0,,,Yes
+2034,unknown,,UK,41.0,82.87,2.0,Monthly,Bank Transfer,No
+2035,44,M,UK,24.0,62.2,2.0,monthly,,Yes
+2036,45,M,,28.0,109.43,3.0,monthly,,Yes
+2037,19,,india,25.0,113.95,2.0,,crypto,No
+2038,59,,UK,52.0,41.22,3.0,Yearly,Credit Card,Yes
+2039,35,F,USA,,44.55,4.0,monthly,Credit Card,Yes
+2040,18,F,USA,17.0,65.72,3.0,Yearly,,No
+2041,41,Male,india,22.0,77.92,1.0,monthly,Bank Transfer,Yes
+2042,30,,Australia,1.0,99.95,2.0,Monthly,,No
+2043,51,M,,11.0,57.05,4.0,,Bank Transfer,Yes
+2044,28,Female,UK,18.0,30.04,3.0,Yearly,,No
+2045,24,,Canada,32.0,71.25,4.0,,Credit Card,Yes
+2046,52,M,,48.0,64.11,3.0,monthly,crypto,Yes
+2047,68,Male,Canada,22.0,110.79,4.0,monthly,Bank Transfer,No
+2048,69,,UK,53.0,41.83,1.0,Monthly,PayPal,No
+2049,64,,UK,39.0,61.08,0.0,monthly,,Yes
+2050,43,Male,india,21.0,92.69,1.0,monthly,,No
+2051,66,M,UK,,-3.23,1.0,monthly,crypto,No
+2052,31,Male,Canada,59.0,,0.0,monthly,,No
+2053,68,,USA,20.0,101.65,1.0,Monthly,PayPal,No
+2054,54,,,18.0,125.71,2.0,monthly,PayPal,No
+2055,34,M,UK,58.0,39.01,3.0,,Bank Transfer,Yes
+2056,26,M,Usa,49.0,76.99,3.0,Yearly,,Yes
+2057,32,,Usa,6.0,78.28,1.0,Monthly,crypto,No
+2058,46,F,Usa,4.0,49.83,2.0,Yearly,Credit Card,No
+2059,68,F,Usa,50.0,90.8,,Yearly,Credit Card,Yes
+2060,62,F,Australia,42.0,72.67,3.0,Monthly,Bank Transfer,No
+2061,31,,USA,33.0,93.03,4.0,,,No
+2062,48,Female,Usa,45.0,62.11,2.0,Monthly,PayPal,Yes
+2063,47,,Australia,9.0,71.02,3.0,Monthly,PayPal,No
+2064,30,,india,39.0,69.84,0.0,monthly,PayPal,Yes
+2065,,,UK,44.0,74.84,2.0,monthly,Bank Transfer,Yes
+2066,22,F,UK,58.0,84.76,3.0,Monthly,PayPal,No
+2067,23,,,54.0,61.27,4.0,,PayPal,Yes
+2068,60,M,UK,58.0,50.68,2.0,Yearly,crypto,No
+2069,69,Male,Australia,46.0,105.09,2.0,monthly,,Yes
+2070,60,,,30.0,42.4,5.0,,,Yes
+2071,40,Male,Australia,27.0,80.67,0.0,,,Yes
+2072,43,Female,UK,27.0,114.38,0.0,,PayPal,No
+2073,56,M,UK,41.0,-5.13,1.0,Yearly,Credit Card,No
+2074,50,Female,Usa,47.0,78.77,1.0,,PayPal,No
+2075,59,Female,Canada,28.0,85.05,0.0,,,No
+2076,66,Female,USA,26.0,125.16,0.0,,Bank Transfer,Yes
+2077,60,F,Canada,23.0,98.46,0.0,,crypto,No
+2078,35,M,india,50.0,82.09,1.0,monthly,Bank Transfer,No
+2079,19,F,Australia,49.0,137.05,2.0,Monthly,Bank Transfer,No
+2080,35,Female,india,27.0,103.83,0.0,monthly,PayPal,Yes
+2081,46,F,USA,58.0,124.0,4.0,Monthly,,Yes
+2082,39,Female,UK,51.0,70.54,0.0,Yearly,Bank Transfer,No
+2083,30,Female,USA,21.0,51.77,2.0,,crypto,Yes
+2084,32,Female,Usa,52.0,101.55,3.0,,,No
+2085,23,M,,55.0,75.27,2.0,,Credit Card,Yes
+2086,56,Female,USA,9.0,94.41,3.0,monthly,Bank Transfer,No
+2087,46,M,Australia,18.0,48.35,0.0,monthly,crypto,Yes
+2088,58,M,Australia,2.0,77.94,1.0,,,No
+2089,28,,USA,55.0,,3.0,,Bank Transfer,No
+2090,48,M,UK,42.0,73.89,0.0,,,Yes
+2091,49,F,india,51.0,99.41,1.0,monthly,crypto,No
+2092,55,Male,Canada,31.0,71.18,1.0,Yearly,,No
+2093,42,,UK,48.0,88.13,0.0,Monthly,Credit Card,No
+2094,20,Male,UK,54.0,50.21,4.0,Monthly,Credit Card,No
+2095,61,,Australia,36.0,36.64,,Monthly,crypto,No
+2096,34,M,india,59.0,94.7,3.0,monthly,,Yes
+2097,28,M,india,5.0,96.43,0.0,Yearly,PayPal,No
+2098,,Female,Australia,2.0,151.65,1.0,Monthly,,No
+2099,45,F,india,31.0,115.53,1.0,Monthly,PayPal,No
+2100,57,F,india,41.0,29.59,5.0,,,Yes
+2101,49,,UK,26.0,111.64,1.0,,,No
+2102,50,,india,1.0,84.04,1.0,,PayPal,Yes
+2103,,Female,USA,35.0,76.44,1.0,Monthly,Bank Transfer,Yes
+2104,39,,,39.0,103.05,5.0,Monthly,PayPal,No
+2105,67,F,Canada,20.0,61.27,1.0,Yearly,PayPal,No
+2106,29,,Australia,13.0,97.54,0.0,,,No
+2107,67,F,,23.0,68.89,0.0,Yearly,crypto,No
+2108,30,Male,UK,59.0,,0.0,Monthly,Bank Transfer,No
+2109,unknown,M,USA,22.0,97.8,3.0,monthly,Bank Transfer,Yes
+2110,21,,Australia,26.0,49.74,3.0,,Credit Card,Yes
+2111,38,,UK,17.0,76.15,2.0,Monthly,Credit Card,No
+2112,46,Male,,20.0,120.09,2.0,Monthly,Bank Transfer,No
+2113,50,,Usa,39.0,91.4,6.0,Monthly,Credit Card,Yes
+2114,51,,Canada,20.0,91.48,1.0,,crypto,Yes
+2115,33,Male,Canada,26.0,81.38,1.0,Monthly,,No
+2116,66,Female,Usa,16.0,102.04,,Yearly,Credit Card,Yes
+2117,52,,UK,49.0,91.07,2.0,Yearly,Bank Transfer,Yes
+2118,49,M,UK,41.0,26.25,1.0,Yearly,PayPal,No
+2119,55,Male,Australia,3.0,79.4,2.0,Yearly,Credit Card,No
+2120,54,,Australia,6.0,84.73,3.0,,,No
+2121,48,M,UK,24.0,103.66,1.0,Yearly,crypto,Yes
+2122,49,,Australia,17.0,32.5,0.0,monthly,Credit Card,Yes
+2123,41,,USA,45.0,83.43,3.0,Monthly,crypto,No
+2124,63,,Australia,18.0,79.6,1.0,,,No
+2125,59,Female,,22.0,105.94,0.0,monthly,,No
+2126,45,Female,Canada,35.0,112.94,3.0,,PayPal,Yes
+2127,32,Male,USA,31.0,68.61,1.0,Yearly,crypto,Yes
+2128,46,Female,Canada,50.0,61.87,3.0,Yearly,PayPal,No
+2129,,Male,Australia,51.0,50.35,2.0,,crypto,Yes
+2130,46,Female,Canada,11.0,63.14,4.0,,,No
+2131,29,,Usa,3.0,94.38,0.0,Yearly,Bank Transfer,No
+2132,31,,india,56.0,106.12,1.0,Yearly,Credit Card,Yes
+2133,69,F,Usa,44.0,108.46,0.0,,Credit Card,No
+2134,40,Female,Australia,13.0,37.64,2.0,Monthly,,No
+2135,unknown,M,UK,51.0,72.84,1.0,,crypto,Yes
+2136,48,,USA,34.0,85.54,2.0,,,No
+2137,49,Male,,7.0,109.54,0.0,Monthly,PayPal,Yes
+2138,31,,Canada,44.0,58.53,1.0,Monthly,crypto,No
+2139,,F,Canada,38.0,72.68,3.0,monthly,Credit Card,No
+2140,18,Male,Australia,18.0,67.26,0.0,Monthly,,No
+2141,24,Male,UK,23.0,95.0,2.0,,,Yes
+2142,69,,,29.0,79.09,4.0,Yearly,,Yes
+2143,21,Male,Canada,27.0,103.82,,monthly,,Yes
+2144,51,Male,,30.0,160.78,0.0,Yearly,,Yes
+2145,54,F,Canada,34.0,104.81,2.0,,crypto,Yes
+2146,56,F,UK,,81.46,1.0,,,No
+2147,61,,Canada,31.0,13.28,2.0,,,No
+2148,28,F,Australia,40.0,3290.0,2.0,Yearly,crypto,No
+2149,59,,Australia,25.0,89.16,1.0,,,No
+2150,36,,Canada,39.0,64.94,0.0,Yearly,,Yes
+2151,21,F,,,49.78,0.0,Yearly,crypto,Yes
+2152,45,Male,USA,21.0,77.83,1.0,Yearly,,No
+2153,35,Female,Australia,11.0,110.78,1.0,monthly,,No
+2154,23,F,Canada,43.0,101.65,6.0,monthly,Credit Card,No
+2155,50,,USA,47.0,71.38,4.0,Monthly,,Yes
+2156,69,Male,india,33.0,,0.0,Yearly,,No
+2157,25,Male,Usa,57.0,74.79,0.0,Yearly,PayPal,No
+2158,26,Female,Australia,56.0,47.69,3.0,Monthly,PayPal,No
+2159,65,F,UK,8.0,111.08,0.0,,Bank Transfer,Yes
+2160,52,Male,USA,49.0,87.06,1.0,,crypto,Yes
+2161,51,,india,32.0,43.81,5.0,Monthly,crypto,No
+2162,50,F,,49.0,96.95,1.0,,,No
+2163,68,Female,,57.0,129.07,1.0,Yearly,Bank Transfer,No
+2164,64,Female,,46.0,137.66,3.0,,,No
+2165,42,M,Canada,11.0,60.29,1.0,monthly,,Yes
+2166,43,M,USA,14.0,58.79,1.0,Yearly,,No
+2167,47,M,UK,12.0,95.65,2.0,,Bank Transfer,Yes
+2168,,M,UK,23.0,57.97,3.0,,crypto,No
+2169,56,M,Usa,12.0,75.75,0.0,,,Yes
+2170,56,F,Australia,,21.91,3.0,Yearly,PayPal,No
+2171,42,Male,Usa,24.0,21.12,3.0,Monthly,,Yes
+2172,44,Male,Australia,15.0,80.42,5.0,,,Yes
+2173,30,,india,55.0,42.14,6.0,Yearly,PayPal,No
+2174,52,M,india,47.0,145.55,2.0,Yearly,,No
+2175,67,,,22.0,59.4,0.0,monthly,,Yes
+2176,34,Male,Australia,52.0,104.84,3.0,,Credit Card,No
+2177,40,F,,42.0,112.13,3.0,Monthly,Bank Transfer,No
+2178,33,Female,Canada,17.0,88.93,0.0,,PayPal,No
+2179,55,M,Usa,53.0,143.08,2.0,monthly,,No
+2180,29,F,Usa,55.0,41.89,3.0,,PayPal,Yes
+2181,49,Female,Canada,6.0,66.83,2.0,monthly,,Yes
+2182,55,Female,UK,56.0,44.63,3.0,Yearly,Bank Transfer,No
+2183,39,,Canada,31.0,73.41,5.0,monthly,PayPal,No
+2184,26,,Canada,58.0,82.53,1.0,,Credit Card,No
+2185,37,F,,51.0,47.92,1.0,monthly,Bank Transfer,No
+2186,,F,Canada,11.0,46.79,2.0,,Bank Transfer,Yes
+2187,66,,Australia,54.0,138.88,2.0,,,No
+2188,42,,Australia,3.0,102.13,7.0,,Bank Transfer,Yes
+2189,66,Male,Canada,36.0,47.78,2.0,,Bank Transfer,Yes
+2190,23,M,india,59.0,141.59,5.0,Monthly,PayPal,Yes
+2191,68,,Canada,19.0,99.33,1.0,Yearly,PayPal,No
+2192,65,M,UK,18.0,117.7,1.0,Monthly,PayPal,Yes
+2193,62,F,,10.0,79.15,2.0,Monthly,,No
+2194,38,M,,37.0,73.78,1.0,Monthly,,Yes
+2195,46,,UK,30.0,107.45,3.0,,,Yes
+2196,52,F,,4.0,84.49,2.0,monthly,Credit Card,Yes
+2197,33,,,33.0,82.93,,,Bank Transfer,Yes
+2198,30,Male,UK,31.0,66.66,2.0,monthly,,No
+2199,30,,Canada,37.0,63.26,1.0,Yearly,PayPal,No
+2178,33,Female,Canada,17.0,88.93,0.0,,PayPal,No
+1865,33,M,Australia,51.0,103.88,0.0,Yearly,Credit Card,Yes
+1101,64,,Usa,23.0,109.15,3.0,,,Yes
+1439,24,M,Canada,4.0,69.63,0.0,,Bank Transfer,No
+1058,26,,UK,12.0,43.99,1.0,,crypto,No
+2120,54,,Australia,6.0,84.73,3.0,,,No
+1323,38,M,Usa,26.0,91.75,4.0,Monthly,PayPal,No
+1974,37,Female,USA,38.0,87.31,1.0,Monthly,PayPal,No
+1411,31,F,,30.0,70.9,1.0,,Credit Card,No
+1855,41,Male,UK,52.0,8.08,0.0,Yearly,,Yes
+1820,65,Female,Usa,20.0,48.73,2.0,Monthly,Credit Card,Yes
+1044,52,,Australia,49.0,26.5,4.0,,,No
+1049,46,M,,42.0,81.54,5.0,,,Yes
+1849,51,F,Canada,28.0,75.44,2.0,,Bank Transfer,Yes
+1240,49,,india,41.0,100.95,4.0,,,Yes
+1170,39,Female,,43.0,48.67,6.0,,Credit Card,Yes
+1523,62,,USA,,99.73,4.0,Monthly,Bank Transfer,No
+1765,,Female,Canada,28.0,93.48,3.0,,PayPal,Yes
+1838,54,Female,USA,42.0,80.01,2.0,monthly,PayPal,No
+1423,58,M,USA,9.0,62.67,3.0,,Bank Transfer,No
+1380,39,Female,Usa,48.0,73.97,3.0,monthly,crypto,Yes
+1609,54,Female,Usa,19.0,92.44,2.0,monthly,Bank Transfer,No
+1676,63,,Australia,19.0,47.35,0.0,,Credit Card,Yes
+1344,39,F,USA,22.0,91.99,2.0,,,Yes
+1109,23,Male,USA,1.0,40.95,3.0,,,No
+1277,60,F,Canada,55.0,64.01,1.0,,crypto,No
+1677,45,Male,Australia,1.0,41.62,0.0,,Credit Card,No
+1570,50,,UK,57.0,72.61,1.0,,,Yes
+1358,,,,45.0,96.6,2.0,monthly,PayPal,No
+1598,26,Female,india,56.0,73.25,2.0,Yearly,crypto,No
+1390,57,Female,UK,38.0,69.96,2.0,,Credit Card,No
+1893,24,Male,india,13.0,37.01,2.0,Yearly,Bank Transfer,Yes
+1692,47,,Canada,11.0,51.44,,Monthly,Credit Card,Yes
+1727,34,F,Usa,56.0,54.96,1.0,,crypto,No
+1362,32,F,USA,6.0,,2.0,monthly,,No
+1596,30,Male,Australia,5.0,102.47,6.0,,Bank Transfer,Yes
+1427,63,Female,Australia,23.0,45.04,2.0,Yearly,PayPal,Yes
+1070,51,Male,Australia,51.0,61.33,5.0,monthly,,No
+1321,44,Female,Canada,21.0,77.75,0.0,,Bank Transfer,Yes
+1652,51,F,Australia,9.0,63.8,,Yearly,Bank Transfer,Yes
+2065,,,UK,44.0,74.84,2.0,monthly,Bank Transfer,Yes
+1107,42,Male,Usa,3.0,55.61,4.0,,,Yes
+2108,30,Male,UK,59.0,,0.0,Monthly,Bank Transfer,No
+1355,24,,,4.0,62.81,2.0,,crypto,Yes
+1950,,Male,USA,,73.82,1.0,,Bank Transfer,No
+1342,unknown,,UK,49.0,89.07,3.0,,,No
+1354,57,Female,USA,39.0,115.0,0.0,Yearly,,No
+1023,30,,Australia,41.0,54.15,1.0,Monthly,PayPal,Yes
+1043,64,F,UK,33.0,92.4,2.0,Monthly,crypto,Yes
+1243,36,M,Usa,55.0,66.19,3.0,,PayPal,Yes

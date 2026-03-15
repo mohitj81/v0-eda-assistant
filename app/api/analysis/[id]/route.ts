@@ -20,7 +20,7 @@ export async function GET(
   { params }: { params: { id: string } }
 ) {
   try {
-    const datasetId = params.id
+    const { id: datasetId } = await params
     const uploadsDir = join(process.cwd(), 'public', 'uploads')
 
     // Find the file matching this dataset ID

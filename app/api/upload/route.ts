@@ -1,15 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { writeFile, mkdir, readFile } from 'fs/promises'
+import { writeFile, mkdir } from 'fs/promises'
 import { join } from 'path'
 import { existsSync } from 'fs'
-
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: '50mb',
-    },
-  },
-}
 
 // Simple CSV parser for server-side processing
 function parseCSV(content: string): any[] {
@@ -31,15 +23,6 @@ function parseCSV(content: string): any[] {
   return data
 }
 
-function inferType(value: string): string {
-  if (!value || value.trim() === '') return 'unknown'
-
-  if (value.toLowerCase() === 'true' || value.toLowerCase() === 'false') return 'boolean'
-  if (!isNaN(Number(value))) return Number.isInteger(Number(value)) ? 'integer' : 'float'
-  if (!isNaN(Date.parse(value))) return 'date'
-  return 'string'
-}
-
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
@@ -49,7 +32,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'No file provided' }, { status: 400 })
     }
 
-    // Validate file
+    // Validate file type
     const validTypes = [
       'text/csv',
       'application/json',
@@ -58,11 +41,12 @@ export async function POST(request: NextRequest) {
     ]
 
     if (!validTypes.includes(file.type) && !file.name.endsWith('.csv')) {
-      return NextResponse.json({ error: 'Invalid file type' }, { status: 400 })
+      return NextResponse.json({ error: 'Invalid file type. Please upload a CSV file.' }, { status: 400 })
     }
 
+    // Validate file size (50MB max)
     if (file.size > 50 * 1024 * 1024) {
-      return NextResponse.json({ error: 'File too large' }, { status: 400 })
+      return NextResponse.json({ error: 'File too large. Maximum size is 50MB.' }, { status: 400 })
     }
 
     // Generate unique ID for dataset
@@ -78,7 +62,6 @@ export async function POST(request: NextRequest) {
     const bytes = await file.arrayBuffer()
     const buffer = Buffer.from(bytes)
     const filePath = join(uploadsDir, `${datasetId}_${file.name}`)
-
     await writeFile(filePath, buffer)
 
     // Parse file to extract metadata
@@ -102,15 +85,15 @@ export async function POST(request: NextRequest) {
         }
       }
 
-      // Calculate basic statistics
+      // Calculate basic statistics from real data
       if (data.length > 0) {
         const columns = Object.keys(data[0])
         stats.rows = data.length
         stats.columns = columns.length
 
-        // Count missing values
         let missingCount = 0
-        let seen = new Set()
+        const seen = new Set()
+
         data.forEach((row) => {
           const rowStr = JSON.stringify(row)
           if (seen.has(rowStr)) {
@@ -125,14 +108,13 @@ export async function POST(request: NextRequest) {
             }
           })
         })
+
         stats.missingValues = missingCount
       }
     } catch (parseError) {
       console.error('Error parsing file:', parseError)
-      // Continue anyway, stats will show 0
     }
 
-    // Return dataset info
     return NextResponse.json({
       datasetId,
       fileName: file.name,
